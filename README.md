@@ -30,9 +30,13 @@ Put E2BMO/ folder on your server
 Just use the link to E2BMO on your web browser to access the files.
 
 Note: am using JavaScript to access the files. This and  google graphics for E2BMO need a server connection.
+
 Note: to run python codes, one need to change folder addresses with appropriate ones. 
+
 Note : One needs python 3 coding language installed on their computer 
+
 Note: BMOMASTER and BMOSKOS_V3 are both XML_RDF format files exported from BMO in Protoge 
+
 Note: BMOSKOS_V3 is the SKOS added words to BMO
 
 content on this site is licensed under a Creative Commons Attribution 4.0 International license. 
