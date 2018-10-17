@@ -37,7 +37,7 @@ Repeat this step for all the E2B words
 
 
 
-3- Putting it all together
+3- Putting it all together - The website 
 
 Create a folder data/
 
@@ -50,6 +50,8 @@ Put E2BMO/ folder on your server
 Just use the link to E2BMO on your web browser to access the files.
 
 
+
+Important notes:
 Note: am using JavaScript to access the files. This and  google graphics for E2BMO need a server connection.
 
 Note: to run python codes, one need to change folder addresses with appropriate ones. 
