@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<title>E2BMO Interface</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel='stylesheet' href='css?family=Roboto'>
+<link rel="stylesheet" href="font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+<style>
+	body,h1 {font-family: "Raleway", Arial, sans-serif}
+	body {
+		background-size: 100% 150%;
+		background-repeat: no-repeat;
+		background-position: top;
+	}
+	h1 {
+		letter-spacing: 6px
+	}
+
+	.w3-row-padding img {
+		margin-bottom: 12px
+	}
+
+	/* .gadget {
+	  padding-top: 45px;
+	  margin:10 px;
+	  padding: 25px;
+	  border:10px;
+/* 	  background-image: url(search.png);
+	  background-size: 80% 80%;  background-repeat: no-repeat;
+	} */
+	#wordtree_explicit {
+		text-align: left;
+		width:200px;
+		margin-left:10px;
+	}
+	#wordtree_explicit path {cursor:pointer;}
+    #wordtree_explicit path ~ text {cursor:pointer;}
+	td {
+	  text-align: left;
+	  vertical-align: middle;
+	  padding-left: 10px;
+	  border: 1px solid forestgreen;
+	}
+	#th1 {
+		border-bottom: 1px solid forestgreen;
+		color:forestgreen;
+/* 		#759167; */
+		text-align: center;
+		vertical-align: middle;
+
+	}
+	#th2{
+	  text-align: center;
+	  vertical-align: middle;
+	  border-bottom: 1px solid forestgreen;
+	}
+	#IPVals{
+	  padding-left: 40px;
+	}
+
+	.button{
+		background-color:white;
+		border:2px solid LightGray;
+		align:center;
+		font:22px/20px sans-serif;
+		width:20%;
+		height:100%;
+		padding:1.6%;
+		text-align:center;
+	}
+
+	.button:hover {
+		background-color: lightgray; /* Green */
+		color: forestgreen;
+	}
+
+	.input{
+		border:none;
+		width:60%;
+		height:20%;
+		color:forestgreen;
+		padding:1%;
+		font:22px/20px sans-serif;
+		text-align:center;
+
+	}
+	#opeque{
+		color: lightgray;
+/* 		#F0F0F0; */
+		 border: 1px solid  #F0F0F0;
+
+	}
+	#opeque:hover{
+		color: black
+	}
+
+	.greenColor{
+		color: forestgreen;
+/* 		#4CAF50 */
+	}
+	u {
+	  padding-bottom:2px;
+	  text-decoration:none;
+	  border-bottom:1px solid forestgreen;
+	}
+</style>
+
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Left Column -->
+    <div class="w3-third" align="center">
+
+      <div class="w3-white w3-text-black w3-card-4" >
+        <div class="w3-display-container">
+          <img src="logo_BigLeaves.png" style="width:80%" alt="Avatar">
+
+        </div>
+        <div class="w3-container" align="right">
+          <b class="greenColor"><u>BMO Trade-Offs:</u></b><br>
+
+          Speed-Accuracy<br>
+          Speed-Energy<br>
+          Cost-Benefit<br>
+          Load-Strength<br>
+          Reproduction-Immunity<br>
+          Resolution-Sensitivity<br>
+          Safety-Efficiency<br>
+          Survival-Reproduction<br>
+           Tolerance-Defence<br>
+			<br>
+			
+
+          <b class="greenColor"><u>E2B Functional Terms:</u></b><br>
+
+          Branch<br>
+          Channel<br>
+          Connect<br>
+          Control_magnitude<br>
+          Convert<br>
+          Provision<br>
+          Signal<br>
+          Support<br>
+
+
+        </div>
+      </div>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-black w3-padding-16 w3-margin-left">E2BMO</h2>
+        <div class="w3-container">
+         <!--  <form name="myform" align="center" > -->
+			<div style="border:2px solid LightGray;" align="center">
+			  <input name="question"class="input" value="Enter a Trade-Off or E2B Functional term..." id="uniqueID"  onblur="onBlur(this)" onfocus="onFocus(this)">
+			  <button type="button" class="button"  id="submitbutton" onclick="handleClick()" >Search
+			</div>
+        </div>
+        <br>
+      </div>
+
+      <div class="w3-container w3-card w3-white" align="left">
+        <h2 class="w3-text-black w3-padding-16"></h2>
+        <div class="w3-container">
+          <div class="wordtree" id="wordtree_explicit" style="width: 900px;"></div>
+		<div class="tradeOffTable" id="tradeOffTable" ></div>
+
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+  <!-- Footnote -->
+<footer class="w3-container w3-center w3-margin-top" style="background-color:seagreen;color:white ">
+</br>
+	
+	<li align="left" style="list-style-type:none">References:
+		<ul>
+		  <li>Vincent, J. F. V. (2016). The trade-off: a central concept for biomimetics. Bioinspired, Biomimetic and Nanobiomaterials, 6(2), 67-76.</li>
+		  <li>Nagel J.K., Stone R.B., & McAdams D.A. (2010) An engineering-to-biology thesaurus for engineering design. ASME 2010 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, (American Society of Mechanical Engineers), pp 117-128.</li>
+		  <li> <a href="https://www.researchgate.net/project/Ontology-of-biomimetics-based-on-trade-offs" target="_blank"> Ontology of biomimetics based on trade-offs in Research Gate, Vincent, J. F. V. </a>	</li>
+		</ul>
+	</li>
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license">
+		<img src="cc_icon.png" width="30px"></img><img src="attribution_icon.png" width="30px"></img></a>
+		content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.
+	</br>
+  Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></br>
+</footer>
+
+</body>
+
+<head>
+	<!-- Google charts Word trees graph code  -->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript">
+		google.charts.load('current', {packages:['wordtree']});
+		var flag = false;
+
+
+		function onBlur(el) {
+			if (el.value == '') {
+				el.value = el.defaultValue;
+			}
+		}
+		function onFocus(el) {
+			if (el.value.length>1) {
+				el.value = '';
+			}
+		}
+
+		function reload(){
+			location.reload();
+		}
+
+		var elem = document.getElementById('uniqueID');
+			elem.addEventListener('keypress', function(e){
+			  if (e.keyCode == 13) {
+				 handleClick();
+			  }
+			});
+
+		function handleClick(){
+			var query = document.getElementById("uniqueID").value.replace(/^\s+|\s+$/g, '');
+			var lowercaseQuery = query.toLowerCase();
+
+			if(lowercaseQuery.match(/.-./)){
+				createTableFile("data/"+lowercaseQuery+"_trade_offs.txt", query);
+				var tree = document.getElementById('wordtree_explicit');
+				tree.innerHTML = "";
+			}
+			else{
+				createTableFile("data/"+lowercaseQuery+"_BiologicalText.txt", query);
+				google.charts.setOnLoadCallback(function() {readTextFile("data/"+lowercaseQuery+"_graph.csv");});
+
+			}
+
+			return false;
+		}
+
+		function createTableFile(file, query){
+			var rawFile = new XMLHttpRequest();
+			rawFile.open("GET", file, false);
+			rawFile.onreadystatechange = function ()
+			{
+				if(rawFile.readyState === 4)
+				{
+					if(rawFile.status === 200 || rawFile.status == 0)
+					{
+						var allText = rawFile.responseText;
+						var newData = (allText.split("\n"));
+						//alert(newData.length);
+						var body = document.getElementById('tradeOffTable');
+						body.innerHTML = "";
+// 						var body = document.getElementsByTagName('body')[0];
+						div = document.createElement('div');
+						var tableString ="<h5>  E2BMO Table for '"+ query+"' </h5>";
+						 tableString +=  "<table align=\"center\">"
+						 tableString +=  "<tr>"
+
+							 tableString +=  "<th id=\"th2\" width=\"200\"> Feature 1 </th>"
+							 tableString +=  "<th id=\"th2\" width=\"200\"> Feature 2 </th>"
+							 tableString +=  "<th id=\"th2\" width=\"400\">Possible Solutions</th>"
+							 tableString +=  "<th id=\"th2\">Biological Models</th>"
+							 tableString +=  "<th id=\"th2\">Reference</th>"
+						 tableString +=  "</tr>"
+						 tableString +=  "<tr>"
+							tableString +=  "<th id=\"th1\" colspan = \"2\"> By finding the balance between the \"improving\" and worsening features</th>"
+							tableString +=  "<th id=\"th1\" width=\"400\">The organism uses these \"Solutions\", named Inventive Principles </th>"
+							tableString +=  "<th id=\"th1\">Trade-off is solved by these organisms</th>"							
+							tableString +=  "<th id=\"th1\">To go further, read this paper</th>"
+						tableString +=  "</tr>"
+						for(var i=0; i<newData.length-1; i++)
+					   	{
+							var elements =newData[i].split("::");
+
+							var listOfPrinciplesExploded =[];
+							if(elements.length >9){
+								 listOfPrinciplesExploded =elements[9].split(",");
+								}
+							if(elements.length>0){
+
+							   tableString +=  "<tr>";
+							   tableString +=  "<td id=\"th2\" width=\"200\" > <b>"+elements[6]+"</b><br> " +elements[5] + "</td>";
+							   tableString +=  "<td id=\"th2\"  width=\"200\" > <strong>"+elements[8]+"</strong> <br>" +elements[7] + "</td>";
+							   tableString +=  "<td width=\"400\"> <div align= \"left\">";
+							   if (listOfPrinciplesExploded != null){
+								   for (var j=0; j< listOfPrinciplesExploded.length-1; j++)
+									{
+									  var valuesexploded = listOfPrinciplesExploded[j].split("|");
+									  tableString +=   "<strong> - "+valuesexploded[0]+ "</strong>"  ;
+									  tableString +=   "<div id=\"IPVals\" > (" +valuesexploded[1]+ ") </div>"  ;
+									}
+								}
+							   tableString +=  "</div>";
+							   var matches=[];
+							   // if(elements[4].match(/\.(.*?)\./s)){
+// 								   matches = elements[4].match(/\.(.*?)\./s)
+// 								   tableString +=  "<td> <a href=\"" + elements[4] + "\">"+matches[0]+"</a> </td>";
+// 							   }
+// 							   else{
+// 								   matches[0]= elements[4]
+								tableString +=  "<td id=\"opeque\">" + elements[0] + "</td>";
+								tableString +=  "<td id=\"opeque\"> "+elements[4]+" </td>";
+// 							   }
+
+
+							   tableString +=  "</tr>";
+							}
+						 }
+						tableString += "</table>";
+						//alert(tableString);
+						div.innerHTML = tableString;
+						body.appendChild(div);
+					}
+					else{
+						alert("Please use a Trade-Off or E2B term from the left column.");
+					}
+				}
+			}
+
+			rawFile.send(null);
+		}
+
+
+		function readTextFile(file)
+		{
+			var rawFile = new XMLHttpRequest();
+			rawFile.open("GET", file, false);
+			rawFile.onreadystatechange = function ()
+			{
+				if(rawFile.readyState === 4)
+				{
+					if(rawFile.status === 200 || rawFile.status == 0)
+					{
+						var allText = rawFile.responseText;
+						var newData = (allText.split("\n"));
+
+						dataTable = new google.visualization.DataTable();
+
+						// determine the number of rows and columns.
+						var numRows = newData.length-1;
+						//alert(numRows);
+						var rowData = newData[0].split(",");
+
+						dataTable.addColumn('number', rowData[0]);
+						dataTable.addColumn('string', rowData[1]);
+						dataTable.addColumn('number', rowData[2]);
+						dataTable.addColumn('number', rowData[3]);
+						dataTable.addColumn('string', rowData[4]);
+
+						  // now add the rows.
+						  for (var i = 1; i < numRows-1; i++)
+							{
+								var rowData = newData[i].split(",");
+								var thisdata = [parseInt(rowData[0]), rowData[1], parseInt(rowData[2]),parseInt(rowData[3]),rowData[4]]
+								dataTable.addRow(thisdata);
+								console.log(newData[i]);
+							}
+
+						var options = {
+						  colors: ['black', 'red', 'blue','green','grey','orange','purple'],
+						  maxFontSize : 20,
+						  fontName: 'Times-Roman',
+						  wordtree: {
+							format: 'explicit',
+							type: 'suffix'
+						  }
+						};
+
+						var wordtree = new google.visualization.WordTree(document.getElementById('wordtree_explicit'));
+						wordtree.draw(dataTable, options);
+					}
+				}
+			}
+			rawFile.send(null);
+		}
+
+	</script>
+</head>
+
+
+</html>

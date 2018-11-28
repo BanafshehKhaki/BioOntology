@@ -1,0 +1,361 @@
+'id', 'childLabel', 'parent', 'size', { role: 'style' }
+0,convert, -1, 1,  black
+1, 'develop', 0, 1, black
+2, 'prepare for action (IP10)', 1, 1, red
+3, 'adapt timing', 2, 1,  purple
+4, 'use daily periodicity', 3, 1,  purple
+5, 'diurnal activity', 4, 1,  purple
+6, 'crepuscular activity', 4, 1,  purple
+7, 'nocturnal activity', 4, 1,  purple
+8, 'use seasonal periodicity', 3, 1,  purple
+9, 'develop dormancy', 8, 1,  purple
+10, 'develop ability to predict', 3, 1,  purple
+11, 'post-error dynamics', 10, 1,  blue
+12, 'piano finger', 10, 1,  blue
+13, 'respond to photoperiod', 10, 1,  purple
+14, 'adapt physiology', 2, 1,  purple
+15, 'foraging pheromone', 14, 1,  blue
+16, 'ant decisions', 14, 1,  blue
+17, 'copulation corrupts immunity', 14, 1,  blue
+18, 'decrease immune response', 14, 1,  purple
+19, 'corticosteroid and feathers', 18, 1,  blue
+20, 'increase immune response', 14, 1,  purple
+21, 'adapt morphology', 2, 1,  purple
+22, 'Gambusia swimming', 21, 1,  blue
+23, 'pre-adapt', 21, 1,  purple
+24, 'use a breakable membrane', 21, 1,  purple
+25, 'invest more energy into structure', 21, 1,  purple
+26, 'adapt behaviour', 2, 1,  purple
+27, 'acquire resource', 26, 1,  purple
+28, 'copepods predator-prey interactions', 27, 1,  blue
+29, 'store resource', 26, 1,  purple
+30, 'store elastic energy', 29, 1,  purple
+31, 'use stored resource', 29, 1,  purple
+32, 'ejaculate economics', 31, 1,  blue
+33, 'jasmonate and auxin', 31, 1,  blue
+34, 'store nutrition', 29, 1,  purple
+35, 'store water', 29, 1,  purple
+36, 'degree of specialisation', 2, 1,  purple
+37, 'specialise', 36, 1,  purple
+38, 'generalise', 36, 1,  purple
+39, 'prepare a defence (IP09)', 1, 1, red
+40, 'initiate pre-emptive behaviour', 39, 1,  purple
+41, 'initiate a counteraction to wave or wind', 40, 1,  purple
+42, 'stick to the substrate', 41, 1,  purple
+43, 'try boldness', 40, 1,  purple
+44, 'avoid negative event', 40, 1,  purple
+45, 'let a population migrate', 44, 1,  purple
+46, 'take avoiding action', 44, 1,  purple
+47, 'false alarms', 46, 1,  blue
+48, 'adopt a defensive strategy', 40, 1,  purple
+49, 'prepare a mechanical defence', 39, 1,  purple
+50, 'change size', 49, 1,  purple
+51, 'develop an impermeable membrane', 49, 1,  purple
+52, 'encapsulate an alien object', 51, 1,  purple
+53, 'change toughness', 49, 1,  purple
+54, 'change strength', 49, 1,  purple
+55, 'initiate antiaction', 39, 1,  purple
+56, 'apply opposite prestrain', 55, 1,  purple
+57, 'expel', 55, 1,  purple
+58, 'excrete', 55, 1,  purple
+59, 'prevent', 55, 1,  purple
+60, 'stop', 55, 1,  purple
+61, 'suppress', 55, 1,  purple
+62, 'dissipate energy', 55, 1,  purple
+63, 'inhibit', 55, 1,  purple
+64, 'repel', 55, 1,  purple
+65, 'groom', 55, 1,  purple
+66, 'groom oneself', 65, 1,  purple
+67, 'groom a conspecific (allo-grooming)', 65, 1,  purple
+68, 'prepare a defensive object', 39, 1,  purple
+69, 'develop a repellant surface structure', 68, 1,  purple
+70, 'prepare a behavioural defence', 39, 1,  purple
+71, 'make the surface slippery', 70, 1,  purple
+72, 'produce a gel or mucus', 71, 1,  purple
+73, 'nacre mechanics', 72, 1,  blue
+74, 'initiate diversionary behaviour', 70, 1,  purple
+75, 'make a smokescreen', 74, 1,  purple
+76, 'use a mask', 70, 1,  purple
+77, 'give a warning', 70, 1,  purple
+78, 'prepare a chemical defence', 39, 1,  purple
+79, 'jasmonate and auxin', 78, 1,  blue
+80, 'use a defence chemical', 78, 1,  purple
+81, 'enhance immunity', 78, 1,  purple
+82, 'use an antiviral chemical', 78, 1,  purple
+83, 'introduce a toxin', 78, 1,  purple
+84, 'use an antibacterial chemical', 78, 1,  purple
+85, 'develop resistance to cold', 78, 1,  purple
+86, 'use a chemical repellent', 78, 1,  purple
+87, 'transduce', 0, 1, black
+88, 'use an intermediary (IP24)', 87, 1, red
+89, 'use an intermediary object', 88, 1,  purple
+90, 'use an object with some power of attraction', 89, 1,  purple
+91, 'use an attractive thing', 90, 1,  purple
+92, 'use an attractive quality', 90, 1,  purple
+93, 'use a sensor to monitor mediation', 89, 1,  purple
+94, 'merge two or more objects temporarily', 88, 1,  purple
+95, 'use an adhesive', 94, 1,  purple
+96, 'spider muscle', 95, 1,  blue
+97, 'chameleon suction trap', 95, 1,  blue
+98, 'use an inhibitory binding protein', 94, 1,  purple
+99, 'dissolve boundaries', 94, 1,  purple
+100, 'use action of an intermediary', 88, 1,  purple
+101, 'modify radiation conditions', 100, 1,  purple
+102, 'reflect radiation wavelengths', 101, 1,  purple
+103, 'reflect radiation intensity', 101, 1,  purple
+104, 'diffuse with a sharp edge', 101, 1,  purple
+105, 'use the action of a hormone', 100, 1,  purple
+106, 'copulation corrupts immunity', 105, 1,  blue
+107, 'use an exchanger', 100, 1,  purple
+108, 'use a acatalyst', 100, 1,  purple
+109, 'pea aphid sterol', 108, 1,  blue
+110, 'use an intermediary carrier', 88, 1,  purple
+111, 'neural threshold', 110, 1,  blue
+112, 'use a template', 110, 1,  purple
+113, 'use a chemical cue', 110, 1,  purple
+114, 'foraging pheromone', 113, 1,  blue
+115, 'use a transfer mould', 110, 1,  purple
+116, 'adsorb onto a surface', 110, 1,  purple
+117, 'degrade', 0, 1, black
+118, 'respire', 0, 1, black
+119, 'hold the system in an equipotential state (IP12)', 118, 1, red
+120, 'use constant operating conditions', 119, 1,  purple
+121, 'generate stable environmental conditions', 120, 1,  purple
+122, 'maintain minimum energy operating conditions', 120, 1,  purple
+123, 'bird flight speed', 122, 1,  blue
+124, 'spread risk evenly', 120, 1,  purple
+125, 'false alarms', 124, 1,  blue
+126, 'maintain homeostasis', 120, 1,  purple
+127, 'conserve energy', 120, 1,  purple
+128, 'use isometric force', 120, 1,  purple
+129, 'increase oxygen concentration', 119, 1,  purple
+130, 'modulate free energy', 129, 1,  purple
+131, 'minimise free energy', 130, 1,  purple
+132, 'maximise free energy', 130, 1,  purple
+133, 'thermodynamic balance', 119, 1,  purple
+134, 'modulate free energy', 133, 1,  purple
+135, 'minimise free energy', 134, 1,  purple
+136, 'maximise free energy', 134, 1,  purple
+137, 'use a form of energy conservation', 119, 1,  purple
+138, 'restrict movement', 137, 1,  purple
+139, 'use a spring to counter a weight', 137, 1,  purple
+140, 'use an elastic restoring force', 139, 1,  purple
+141, 'cycle energy with a spring', 137, 1,  purple
+142, 'use an elastic energy store', 141, 1,  purple
+143, 'synthesize', 0, 1, black
+144, 'use an intermediary (IP24)', 143, 1, red
+145, 'use an intermediary object', 144, 1,  purple
+146, 'use an object with some power of attraction', 145, 1,  purple
+147, 'use an attractive thing', 146, 1,  purple
+148, 'use an attractive quality', 146, 1,  purple
+149, 'use a sensor to monitor mediation', 145, 1,  purple
+150, 'merge two or more objects temporarily', 144, 1,  purple
+151, 'use an adhesive', 150, 1,  purple
+152, 'spider muscle', 151, 1,  blue
+153, 'chameleon suction trap', 151, 1,  blue
+154, 'use an inhibitory binding protein', 150, 1,  purple
+155, 'dissolve boundaries', 150, 1,  purple
+156, 'use action of an intermediary', 144, 1,  purple
+157, 'modify radiation conditions', 156, 1,  purple
+158, 'reflect radiation wavelengths', 157, 1,  purple
+159, 'reflect radiation intensity', 157, 1,  purple
+160, 'diffuse with a sharp edge', 157, 1,  purple
+161, 'use the action of a hormone', 156, 1,  purple
+162, 'copulation corrupts immunity', 161, 1,  blue
+163, 'use an exchanger', 156, 1,  purple
+164, 'use a acatalyst', 156, 1,  purple
+165, 'pea aphid sterol', 164, 1,  blue
+166, 'use an intermediary carrier', 144, 1,  purple
+167, 'neural threshold', 166, 1,  blue
+168, 'use a template', 166, 1,  purple
+169, 'use a chemical cue', 166, 1,  purple
+170, 'foraging pheromone', 169, 1,  blue
+171, 'use a transfer mould', 166, 1,  purple
+172, 'adsorb onto a surface', 166, 1,  purple
+173, 'prepare a defence (IP09)', 143, 1, red
+174, 'initiate pre-emptive behaviour', 173, 1,  purple
+175, 'initiate a counteraction to wave or wind', 174, 1,  purple
+176, 'stick to the substrate', 175, 1,  purple
+177, 'try boldness', 174, 1,  purple
+178, 'avoid negative event', 174, 1,  purple
+179, 'let a population migrate', 178, 1,  purple
+180, 'take avoiding action', 178, 1,  purple
+181, 'false alarms', 180, 1,  blue
+182, 'adopt a defensive strategy', 174, 1,  purple
+183, 'prepare a mechanical defence', 173, 1,  purple
+184, 'change size', 183, 1,  purple
+185, 'develop an impermeable membrane', 183, 1,  purple
+186, 'encapsulate an alien object', 185, 1,  purple
+187, 'change toughness', 183, 1,  purple
+188, 'change strength', 183, 1,  purple
+189, 'initiate antiaction', 173, 1,  purple
+190, 'apply opposite prestrain', 189, 1,  purple
+191, 'expel', 189, 1,  purple
+192, 'excrete', 189, 1,  purple
+193, 'prevent', 189, 1,  purple
+194, 'stop', 189, 1,  purple
+195, 'suppress', 189, 1,  purple
+196, 'dissipate energy', 189, 1,  purple
+197, 'inhibit', 189, 1,  purple
+198, 'repel', 189, 1,  purple
+199, 'groom', 189, 1,  purple
+200, 'groom oneself', 199, 1,  purple
+201, 'groom a conspecific (allo-grooming)', 199, 1,  purple
+202, 'prepare a defensive object', 173, 1,  purple
+203, 'develop a repellant surface structure', 202, 1,  purple
+204, 'prepare a behavioural defence', 173, 1,  purple
+205, 'make the surface slippery', 204, 1,  purple
+206, 'produce a gel or mucus', 205, 1,  purple
+207, 'nacre mechanics', 206, 1,  blue
+208, 'initiate diversionary behaviour', 204, 1,  purple
+209, 'make a smokescreen', 208, 1,  purple
+210, 'use a mask', 204, 1,  purple
+211, 'give a warning', 204, 1,  purple
+212, 'prepare a chemical defence', 173, 1,  purple
+213, 'jasmonate and auxin', 212, 1,  blue
+214, 'use a defence chemical', 212, 1,  purple
+215, 'enhance immunity', 212, 1,  purple
+216, 'use an antiviral chemical', 212, 1,  purple
+217, 'introduce a toxin', 212, 1,  purple
+218, 'use an antibacterial chemical', 212, 1,  purple
+219, 'develop resistance to cold', 212, 1,  purple
+220, 'use a chemical repellent', 212, 1,  purple
+221, 'hydrolyze', 0, 1, black
+222, 'decompose', 0, 1, black
+223, 'consolidate (IP05)', 222, 1, red
+224, 'group similar objects together', 223, 1,  purple
+225, 'sick bees', 224, 1,  blue
+226, 'assemble identical objects', 223, 1,  purple
+227, 'generate an array', 226, 1,  purple
+228, 'specialise material or system function', 226, 1,  purple
+229, 'form a swarm or group', 226, 1,  purple
+230, 'polymerise monomers', 226, 1,  purple
+231, 'accumulate information', 223, 1,  purple
+232, 'use a linear ballistic accumulator', 231, 1,  purple
+233, 'optimal sensory processing', 232, 1,  blue
+234, 'use an integrated accumulator', 231, 1,  purple
+235, 'post-error dynamics', 234, 1,  blue
+236, 'neural threshold', 234, 1,  blue
+237, 'integrate several objects or systems', 231, 1,  purple
+238, 'toad vision', 237, 1,  blue
+239, 'generate a network', 237, 1,  purple
+240, 'gene network size', 239, 1,  blue
+241, 'make operations contiguous', 223, 1,  purple
+242, 'merge components', 223, 1,  purple
+243, 'bloodworm mandible', 242, 1,  blue
+244, 'bind selectively', 242, 1,  purple
+245, 'fitness and stability', 244, 1,  blue
+246, 'segment before merging', 242, 1,  purple
+247, 'move everything up towards the front end', 242, 1,  purple
+248, 'epitaxial bonding', 242, 1,  purple
+249, 'functionally separated bifunctional component', 242, 1,  purple
+250, 'make operations parallel', 223, 1,  purple
+251, 'ferment', 0, 1, black
+252, 'grow', 0, 1, black
+253, 'convert to dynamics (IP15)', 252, 1, red
+254, 'deploy a structure', 253, 1,  purple
+255, 'deploy a deformation along a structure', 254, 1,  purple
+256, 'use a double helical mechanism', 254, 1,  purple
+257, 'evolution favours phenotypic quality cues over individuality cues', 253, 1,  purple
+258, 'make parts independently moveable', 253, 1,  purple
+259, 'ant-lion', 258, 1,  blue
+260, 'increase degrees of freedom', 258, 1,  purple
+261, 'use independent suspension', 258, 1,  purple
+262, 'make parts independently responsive', 258, 1,  purple
+263, 'optimal sensory processing', 262, 1,  blue
+264, 'lubricate', 258, 1,  purple
+265, 'nacre mechanics', 264, 1,  blue
+266, 'change stationary to moveable', 253, 1,  purple
+267, 'copepods predator-prey interactions', 266, 1,  blue
+268, 'change from static to dynamic field', 253, 1,  purple
+269, 'piano finger', 268, 1,  blue
+270, 'progress to optimal operating conditions', 253, 1,  purple
+271, 'ant decisions', 270, 1,  blue
+272, 'lignified seaweed', 270, 1,  blue
+273, 'ensure structure is flexible', 270, 1,  purple
+274, 'change developmental process', 270, 1,  purple
+275, 'growth-rate lifespan', 274, 1,  blue
+276, 'resistance-tolerance', 274, 1,  blue
+277, 'maintain a dynamic equilibrium', 270, 1,  purple
+278, 'filter-feeding shark', 277, 1,  blue
+279, 'optimise process', 270, 1,  purple
+280, 'change response threshold', 270, 1,  purple
+281, 'toad vision', 280, 1,  blue
+282, 'post-error dynamics', 280, 1,  blue
+283, 'neural threshold', 280, 1,  blue
+284, 'optimal sensory processing', 280, 1,  blue
+285, 'copulation corrupts immunity', 280, 1,  blue
+286, 'optimise object', 270, 1,  purple
+287, 'optimise environment', 270, 1,  purple
+288, 'means to increase adaptiveness', 270, 1,  purple
+289, 'grazing copepods', 288, 1,  blue
+290, 'adaptive control', 288, 1,  purple
+291, 'gene network size', 290, 1,  blue
+292, 'phenotypic variability', 288, 1,  purple
+293, 'change genotype', 288, 1,  purple
+294, 'change phenotype', 288, 1,  purple
+295, 'acclimatise', 270, 1,  purple
+296, 'photosynthesize', 0, 1, black
+297, 'use an intermediary (IP24)', 296, 1, red
+298, 'use an intermediary object', 297, 1,  purple
+299, 'use an object with some power of attraction', 298, 1,  purple
+300, 'use an attractive thing', 299, 1,  purple
+301, 'use an attractive quality', 299, 1,  purple
+302, 'use a sensor to monitor mediation', 298, 1,  purple
+303, 'merge two or more objects temporarily', 297, 1,  purple
+304, 'use an adhesive', 303, 1,  purple
+305, 'spider muscle', 304, 1,  blue
+306, 'chameleon suction trap', 304, 1,  blue
+307, 'use an inhibitory binding protein', 303, 1,  purple
+308, 'dissolve boundaries', 303, 1,  purple
+309, 'use action of an intermediary', 297, 1,  purple
+310, 'modify radiation conditions', 309, 1,  purple
+311, 'reflect radiation wavelengths', 310, 1,  purple
+312, 'reflect radiation intensity', 310, 1,  purple
+313, 'diffuse with a sharp edge', 310, 1,  purple
+314, 'use the action of a hormone', 309, 1,  purple
+315, 'copulation corrupts immunity', 314, 1,  blue
+316, 'use an exchanger', 309, 1,  purple
+317, 'use a acatalyst', 309, 1,  purple
+318, 'pea aphid sterol', 317, 1,  blue
+319, 'use an intermediary carrier', 297, 1,  purple
+320, 'neural threshold', 319, 1,  blue
+321, 'use a template', 319, 1,  purple
+322, 'use a chemical cue', 319, 1,  purple
+323, 'foraging pheromone', 322, 1,  blue
+324, 'use a transfer mould', 319, 1,  purple
+325, 'adsorb onto a surface', 319, 1,  purple
+326, 'mutate', 0, 1, black
+327, 'polymerize', 0, 1, black
+328, 'metabolize', 0, 1, black
+329, 'ionize', 0, 1, black
+330, 'use an intermediary (IP24)', 329, 1, red
+331, 'use an intermediary object', 330, 1,  purple
+332, 'use an object with some power of attraction', 331, 1,  purple
+333, 'use an attractive thing', 332, 1,  purple
+334, 'use an attractive quality', 332, 1,  purple
+335, 'use a sensor to monitor mediation', 331, 1,  purple
+336, 'merge two or more objects temporarily', 330, 1,  purple
+337, 'use an adhesive', 336, 1,  purple
+338, 'spider muscle', 337, 1,  blue
+339, 'chameleon suction trap', 337, 1,  blue
+340, 'use an inhibitory binding protein', 336, 1,  purple
+341, 'dissolve boundaries', 336, 1,  purple
+342, 'use action of an intermediary', 330, 1,  purple
+343, 'modify radiation conditions', 342, 1,  purple
+344, 'reflect radiation wavelengths', 343, 1,  purple
+345, 'reflect radiation intensity', 343, 1,  purple
+346, 'diffuse with a sharp edge', 343, 1,  purple
+347, 'use the action of a hormone', 342, 1,  purple
+348, 'copulation corrupts immunity', 347, 1,  blue
+349, 'use an exchanger', 342, 1,  purple
+350, 'use a acatalyst', 342, 1,  purple
+351, 'pea aphid sterol', 350, 1,  blue
+352, 'use an intermediary carrier', 330, 1,  purple
+353, 'neural threshold', 352, 1,  blue
+354, 'use a template', 352, 1,  purple
+355, 'use a chemical cue', 352, 1,  purple
+356, 'foraging pheromone', 355, 1,  blue
+357, 'use a transfer mould', 352, 1,  purple
+358, 'adsorb onto a surface', 352, 1,  purple
+359, 'burn', 0, 1, black

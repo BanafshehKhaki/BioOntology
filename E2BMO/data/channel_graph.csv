@@ -1,0 +1,1535 @@
+'id', 'childLabel', 'parent', 'size', { role: 'style' }
+0,channel, -1, 1,  black
+1, 'transfer', 0, 1, black
+2, 'transmit', 1, 1, green
+3, 'transduce', 2, 1, orange
+4, 'use an intermediary (IP24)', 3, 1, red
+5, 'merge two or more objects temporarily', 4, 1,  purple
+6, 'use an inhibitory binding protein', 5, 1,  purple
+7, 'use an adhesive', 5, 1,  purple
+8, 'spider muscle', 7, 1,  blue
+9, 'chameleon suction trap', 7, 1,  blue
+10, 'dissolve boundaries', 5, 1,  purple
+11, 'use an intermediary object', 4, 1,  purple
+12, 'use a sensor to monitor mediation', 11, 1,  purple
+13, 'use an object with some power of attraction', 11, 1,  purple
+14, 'use an attractive thing', 13, 1,  purple
+15, 'use an attractive quality', 13, 1,  purple
+16, 'use an intermediary carrier', 4, 1,  purple
+17, 'neural threshold', 16, 1,  blue
+18, 'use a chemical cue', 16, 1,  purple
+19, 'foraging pheromone', 18, 1,  blue
+20, 'adsorb onto a surface', 16, 1,  purple
+21, 'use a transfer mould', 16, 1,  purple
+22, 'use a template', 16, 1,  purple
+23, 'use action of an intermediary', 4, 1,  purple
+24, 'use an exchanger', 23, 1,  purple
+25, 'use a acatalyst', 23, 1,  purple
+26, 'pea aphid sterol', 25, 1,  blue
+27, 'use the action of a hormone', 23, 1,  purple
+28, 'copulation corrupts immunity', 27, 1,  blue
+29, 'modify radiation conditions', 23, 1,  purple
+30, 'diffuse with a sharp edge', 29, 1,  purple
+31, 'reflect radiation wavelengths', 29, 1,  purple
+32, 'reflect radiation intensity', 29, 1,  purple
+33, 'communicate', 2, 1, orange
+34, 'use an intermediary (IP24)', 33, 1, red
+35, 'merge two or more objects temporarily', 34, 1,  purple
+36, 'use an inhibitory binding protein', 35, 1,  purple
+37, 'use an adhesive', 35, 1,  purple
+38, 'spider muscle', 37, 1,  blue
+39, 'chameleon suction trap', 37, 1,  blue
+40, 'dissolve boundaries', 35, 1,  purple
+41, 'use an intermediary object', 34, 1,  purple
+42, 'use a sensor to monitor mediation', 41, 1,  purple
+43, 'use an object with some power of attraction', 41, 1,  purple
+44, 'use an attractive thing', 43, 1,  purple
+45, 'use an attractive quality', 43, 1,  purple
+46, 'use an intermediary carrier', 34, 1,  purple
+47, 'neural threshold', 46, 1,  blue
+48, 'use a chemical cue', 46, 1,  purple
+49, 'foraging pheromone', 48, 1,  blue
+50, 'adsorb onto a surface', 46, 1,  purple
+51, 'use a transfer mould', 46, 1,  purple
+52, 'use a template', 46, 1,  purple
+53, 'use action of an intermediary', 34, 1,  purple
+54, 'use an exchanger', 53, 1,  purple
+55, 'use a acatalyst', 53, 1,  purple
+56, 'pea aphid sterol', 55, 1,  blue
+57, 'use the action of a hormone', 53, 1,  purple
+58, 'copulation corrupts immunity', 57, 1,  blue
+59, 'modify radiation conditions', 53, 1,  purple
+60, 'diffuse with a sharp edge', 59, 1,  purple
+61, 'reflect radiation wavelengths', 59, 1,  purple
+62, 'reflect radiation intensity', 59, 1,  purple
+63, 'use feedback (IP23)', 33, 1, red
+64, 'use negative feedback', 63, 1,  purple
+65, 'inhibit', 64, 1,  purple
+66, 'initiate stability control', 64, 1,  purple
+67, 'use positive feedback', 63, 1,  purple
+68, 'foraging pheromone', 67, 1,  blue
+69, 'use a nonlinear positive feedback', 67, 1,  purple
+70, 'ant decisions', 69, 1,  blue
+71, 'amplify feedback', 67, 1,  purple
+72, 'excite', 67, 1,  purple
+73, 'allow genetic feedback and control', 63, 1,  purple
+74, 'use population control', 63, 1,  purple
+75, 'use neural or electronic feedback', 63, 1,  purple
+76, 'use physiological feedback', 63, 1,  purple
+77, 'use behavioural feedback', 63, 1,  purple
+78, 'grazing copepods', 77, 1,  blue
+79, 'filter-feeding shark', 77, 1,  blue
+80, 'learn', 77, 1,  purple
+81, 'false alarms', 80, 1,  blue
+82, 'come to a concensual agreement', 77, 1,  purple
+83, 'ant decisions', 82, 1,  blue
+84, 'sick bees', 82, 1,  blue
+85, 'follow a pre-existing trail', 77, 1,  purple
+86, 'use a form of sensory feedback', 63, 1,  purple
+87, 'use vibrational feedback', 86, 1,  purple
+88, 'use audio feedback', 86, 1,  purple
+89, 'use a broad frequency band', 88, 1,  purple
+90, 'detect a shift or change in frequency', 88, 1,  purple
+91, 'use proprioception', 86, 1,  purple
+92, 'use position feedback', 91, 1,  purple
+93, 'ant-lion', 92, 1,  blue
+94, 'use optical feedback', 86, 1,  purple
+95, 'use feedback from flowing fluid', 86, 1,  purple
+96, 'copepods predator-prey interactions', 95, 1,  blue
+97, 'use gravity feedback', 86, 1,  purple
+98, 'use a mechanical feedback', 86, 1,  purple
+99, 'piano finger', 98, 1,  blue
+100, 'use visual feedback', 86, 1,  purple
+101, 'use linear feedback', 63, 1,  purple
+102, 'use passive feedback', 63, 1,  purple
+103, 'set sensitivity inverse to input signal', 102, 1,  purple
+104, 'use automatic control', 63, 1,  purple
+105, 'implement quality control', 104, 1,  purple
+106, 'ejaculate economics', 105, 1,  blue
+107, 'optimise the signal-to-noise ratio', 105, 1,  purple
+108, 'toad vision', 107, 1,  blue
+109, 'use natural selection', 104, 1,  purple
+110, 'be sensitive to environmental cues', 104, 1,  purple
+111, 'copepods predator-prey interactions', 110, 1,  blue
+112, 'use adaptive evolution', 104, 1,  purple
+113, 'fitness and stability', 112, 1,  blue
+114, 'use morphological feedback', 63, 1,  purple
+115, 'use error correction', 63, 1,  purple
+116, 'post-error dynamics', 115, 1,  blue
+117, 'transport', 1, 1, green
+118, 'pump', 117, 1, orange
+119, 'convert to dynamics (IP15)', 118, 1, red
+120, 'make parts independently moveable', 119, 1,  purple
+121, 'ant-lion', 120, 1,  blue
+122, 'use independent suspension', 120, 1,  purple
+123, 'lubricate', 120, 1,  purple
+124, 'nacre mechanics', 123, 1,  blue
+125, 'make parts independently responsive', 120, 1,  purple
+126, 'optimal sensory processing', 125, 1,  blue
+127, 'increase degrees of freedom', 120, 1,  purple
+128, 'change from static to dynamic field', 119, 1,  purple
+129, 'piano finger', 128, 1,  blue
+130, 'change stationary to moveable', 119, 1,  purple
+131, 'copepods predator-prey interactions', 130, 1,  blue
+132, 'evolution favours phenotypic quality cues over individuality cues', 119, 1,  purple
+133, 'deploy a structure', 119, 1,  purple
+134, 'deploy a deformation along a structure', 133, 1,  purple
+135, 'use a double helical mechanism', 133, 1,  purple
+136, 'progress to optimal operating conditions', 119, 1,  purple
+137, 'ant decisions', 136, 1,  blue
+138, 'lignified seaweed', 136, 1,  blue
+139, 'optimise environment', 136, 1,  purple
+140, 'change response threshold', 136, 1,  purple
+141, 'toad vision', 140, 1,  blue
+142, 'post-error dynamics', 140, 1,  blue
+143, 'neural threshold', 140, 1,  blue
+144, 'optimal sensory processing', 140, 1,  blue
+145, 'copulation corrupts immunity', 140, 1,  blue
+146, 'means to increase adaptiveness', 136, 1,  purple
+147, 'grazing copepods', 146, 1,  blue
+148, 'adaptive control', 146, 1,  purple
+149, 'gene network size', 148, 1,  blue
+150, 'phenotypic variability', 146, 1,  purple
+151, 'change genotype', 146, 1,  purple
+152, 'change phenotype', 146, 1,  purple
+153, 'change developmental process', 136, 1,  purple
+154, 'growth-rate lifespan', 153, 1,  blue
+155, 'resistance-tolerance', 153, 1,  blue
+156, 'ensure structure is flexible', 136, 1,  purple
+157, 'optimise object', 136, 1,  purple
+158, 'optimise process', 136, 1,  purple
+159, 'acclimatise', 136, 1,  purple
+160, 'maintain a dynamic equilibrium', 136, 1,  purple
+161, 'filter-feeding shark', 160, 1,  blue
+162, 'displace', 117, 1, orange
+163, 'convert to dynamics (IP15)', 162, 1, red
+164, 'make parts independently moveable', 163, 1,  purple
+165, 'ant-lion', 164, 1,  blue
+166, 'use independent suspension', 164, 1,  purple
+167, 'lubricate', 164, 1,  purple
+168, 'nacre mechanics', 167, 1,  blue
+169, 'make parts independently responsive', 164, 1,  purple
+170, 'optimal sensory processing', 169, 1,  blue
+171, 'increase degrees of freedom', 164, 1,  purple
+172, 'change from static to dynamic field', 163, 1,  purple
+173, 'piano finger', 172, 1,  blue
+174, 'change stationary to moveable', 163, 1,  purple
+175, 'copepods predator-prey interactions', 174, 1,  blue
+176, 'evolution favours phenotypic quality cues over individuality cues', 163, 1,  purple
+177, 'deploy a structure', 163, 1,  purple
+178, 'deploy a deformation along a structure', 177, 1,  purple
+179, 'use a double helical mechanism', 177, 1,  purple
+180, 'progress to optimal operating conditions', 163, 1,  purple
+181, 'ant decisions', 180, 1,  blue
+182, 'lignified seaweed', 180, 1,  blue
+183, 'optimise environment', 180, 1,  purple
+184, 'change response threshold', 180, 1,  purple
+185, 'toad vision', 184, 1,  blue
+186, 'post-error dynamics', 184, 1,  blue
+187, 'neural threshold', 184, 1,  blue
+188, 'optimal sensory processing', 184, 1,  blue
+189, 'copulation corrupts immunity', 184, 1,  blue
+190, 'means to increase adaptiveness', 180, 1,  purple
+191, 'grazing copepods', 190, 1,  blue
+192, 'adaptive control', 190, 1,  purple
+193, 'gene network size', 192, 1,  blue
+194, 'phenotypic variability', 190, 1,  purple
+195, 'change genotype', 190, 1,  purple
+196, 'change phenotype', 190, 1,  purple
+197, 'change developmental process', 180, 1,  purple
+198, 'growth-rate lifespan', 197, 1,  blue
+199, 'resistance-tolerance', 197, 1,  blue
+200, 'ensure structure is flexible', 180, 1,  purple
+201, 'optimise object', 180, 1,  purple
+202, 'optimise process', 180, 1,  purple
+203, 'acclimatise', 180, 1,  purple
+204, 'maintain a dynamic equilibrium', 180, 1,  purple
+205, 'filter-feeding shark', 204, 1,  blue
+206, 'use asymmetry (IP04)', 162, 1, red
+207, 'increase asymmetry', 206, 1,  purple
+208, 'toxicity and growth', 207, 1,  blue
+209, 'use asymmetry of shape', 206, 1,  purple
+210, 'use asymmetry of surface film', 206, 1,  purple
+211, 'use anisotropic material', 206, 1,  purple
+212, 'use asymmetry of friction', 206, 1,  purple
+213, 'use asymmetry of force', 206, 1,  purple
+214, 'introduce anisotropy', 206, 1,  purple
+215, 'change from symmetrical to asymmetrical', 206, 1,  purple
+216, 'use asymmetry of behaviour', 206, 1,  purple
+217, 'use asymmetry of movement', 206, 1,  purple
+218, 'grow asymmetrically', 206, 1,  purple
+219, 'circulate', 117, 1, orange
+220, 'convert to dynamics (IP15)', 219, 1, red
+221, 'make parts independently moveable', 220, 1,  purple
+222, 'ant-lion', 221, 1,  blue
+223, 'use independent suspension', 221, 1,  purple
+224, 'lubricate', 221, 1,  purple
+225, 'nacre mechanics', 224, 1,  blue
+226, 'make parts independently responsive', 221, 1,  purple
+227, 'optimal sensory processing', 226, 1,  blue
+228, 'increase degrees of freedom', 221, 1,  purple
+229, 'change from static to dynamic field', 220, 1,  purple
+230, 'piano finger', 229, 1,  blue
+231, 'change stationary to moveable', 220, 1,  purple
+232, 'copepods predator-prey interactions', 231, 1,  blue
+233, 'evolution favours phenotypic quality cues over individuality cues', 220, 1,  purple
+234, 'deploy a structure', 220, 1,  purple
+235, 'deploy a deformation along a structure', 234, 1,  purple
+236, 'use a double helical mechanism', 234, 1,  purple
+237, 'progress to optimal operating conditions', 220, 1,  purple
+238, 'ant decisions', 237, 1,  blue
+239, 'lignified seaweed', 237, 1,  blue
+240, 'optimise environment', 237, 1,  purple
+241, 'change response threshold', 237, 1,  purple
+242, 'toad vision', 241, 1,  blue
+243, 'post-error dynamics', 241, 1,  blue
+244, 'neural threshold', 241, 1,  blue
+245, 'optimal sensory processing', 241, 1,  blue
+246, 'copulation corrupts immunity', 241, 1,  blue
+247, 'means to increase adaptiveness', 237, 1,  purple
+248, 'grazing copepods', 247, 1,  blue
+249, 'adaptive control', 247, 1,  purple
+250, 'gene network size', 249, 1,  blue
+251, 'phenotypic variability', 247, 1,  purple
+252, 'change genotype', 247, 1,  purple
+253, 'change phenotype', 247, 1,  purple
+254, 'change developmental process', 237, 1,  purple
+255, 'growth-rate lifespan', 254, 1,  blue
+256, 'resistance-tolerance', 254, 1,  blue
+257, 'ensure structure is flexible', 237, 1,  purple
+258, 'optimise object', 237, 1,  purple
+259, 'optimise process', 237, 1,  purple
+260, 'acclimatise', 237, 1,  purple
+261, 'maintain a dynamic equilibrium', 237, 1,  purple
+262, 'filter-feeding shark', 261, 1,  blue
+263, 'bounce', 117, 1, orange
+264, 'use periodic action (IP19)', 263, 1, red
+265, 'change wave shape', 264, 1,  purple
+266, 'change lengths of in and out phases', 265, 1,  purple
+267, 'use a standing wave', 264, 1,  purple
+268, 'use peristalsis', 264, 1,  purple
+269, 'change from continuous to periodic function', 264, 1,  purple
+270, 'use pulsating action', 264, 1,  purple
+271, 'change periodicity of action', 264, 1,  purple
+272, 'use spaces between impulses for other functions', 264, 1,  purple
+273, 'convert to dynamics (IP15)', 263, 1, red
+274, 'make parts independently moveable', 273, 1,  purple
+275, 'ant-lion', 274, 1,  blue
+276, 'use independent suspension', 274, 1,  purple
+277, 'lubricate', 274, 1,  purple
+278, 'nacre mechanics', 277, 1,  blue
+279, 'make parts independently responsive', 274, 1,  purple
+280, 'optimal sensory processing', 279, 1,  blue
+281, 'increase degrees of freedom', 274, 1,  purple
+282, 'change from static to dynamic field', 273, 1,  purple
+283, 'piano finger', 282, 1,  blue
+284, 'change stationary to moveable', 273, 1,  purple
+285, 'copepods predator-prey interactions', 284, 1,  blue
+286, 'evolution favours phenotypic quality cues over individuality cues', 273, 1,  purple
+287, 'deploy a structure', 273, 1,  purple
+288, 'deploy a deformation along a structure', 287, 1,  purple
+289, 'use a double helical mechanism', 287, 1,  purple
+290, 'progress to optimal operating conditions', 273, 1,  purple
+291, 'ant decisions', 290, 1,  blue
+292, 'lignified seaweed', 290, 1,  blue
+293, 'optimise environment', 290, 1,  purple
+294, 'change response threshold', 290, 1,  purple
+295, 'toad vision', 294, 1,  blue
+296, 'post-error dynamics', 294, 1,  blue
+297, 'neural threshold', 294, 1,  blue
+298, 'optimal sensory processing', 294, 1,  blue
+299, 'copulation corrupts immunity', 294, 1,  blue
+300, 'means to increase adaptiveness', 290, 1,  purple
+301, 'grazing copepods', 300, 1,  blue
+302, 'adaptive control', 300, 1,  purple
+303, 'gene network size', 302, 1,  blue
+304, 'phenotypic variability', 300, 1,  purple
+305, 'change genotype', 300, 1,  purple
+306, 'change phenotype', 300, 1,  purple
+307, 'change developmental process', 290, 1,  purple
+308, 'growth-rate lifespan', 307, 1,  blue
+309, 'resistance-tolerance', 307, 1,  blue
+310, 'ensure structure is flexible', 290, 1,  purple
+311, 'optimise object', 290, 1,  purple
+312, 'optimise process', 290, 1,  purple
+313, 'acclimatise', 290, 1,  purple
+314, 'maintain a dynamic equilibrium', 290, 1,  purple
+315, 'filter-feeding shark', 314, 1,  blue
+316, 'shift', 117, 1, orange
+317, 'diffuse', 117, 1, orange
+318, 'swim', 117, 1, orange
+319, 'convert to dynamics (IP15)', 318, 1, red
+320, 'make parts independently moveable', 319, 1,  purple
+321, 'ant-lion', 320, 1,  blue
+322, 'use independent suspension', 320, 1,  purple
+323, 'lubricate', 320, 1,  purple
+324, 'nacre mechanics', 323, 1,  blue
+325, 'make parts independently responsive', 320, 1,  purple
+326, 'optimal sensory processing', 325, 1,  blue
+327, 'increase degrees of freedom', 320, 1,  purple
+328, 'change from static to dynamic field', 319, 1,  purple
+329, 'piano finger', 328, 1,  blue
+330, 'change stationary to moveable', 319, 1,  purple
+331, 'copepods predator-prey interactions', 330, 1,  blue
+332, 'evolution favours phenotypic quality cues over individuality cues', 319, 1,  purple
+333, 'deploy a structure', 319, 1,  purple
+334, 'deploy a deformation along a structure', 333, 1,  purple
+335, 'use a double helical mechanism', 333, 1,  purple
+336, 'progress to optimal operating conditions', 319, 1,  purple
+337, 'ant decisions', 336, 1,  blue
+338, 'lignified seaweed', 336, 1,  blue
+339, 'optimise environment', 336, 1,  purple
+340, 'change response threshold', 336, 1,  purple
+341, 'toad vision', 340, 1,  blue
+342, 'post-error dynamics', 340, 1,  blue
+343, 'neural threshold', 340, 1,  blue
+344, 'optimal sensory processing', 340, 1,  blue
+345, 'copulation corrupts immunity', 340, 1,  blue
+346, 'means to increase adaptiveness', 336, 1,  purple
+347, 'grazing copepods', 346, 1,  blue
+348, 'adaptive control', 346, 1,  purple
+349, 'gene network size', 348, 1,  blue
+350, 'phenotypic variability', 346, 1,  purple
+351, 'change genotype', 346, 1,  purple
+352, 'change phenotype', 346, 1,  purple
+353, 'change developmental process', 336, 1,  purple
+354, 'growth-rate lifespan', 353, 1,  blue
+355, 'resistance-tolerance', 353, 1,  blue
+356, 'ensure structure is flexible', 336, 1,  purple
+357, 'optimise object', 336, 1,  purple
+358, 'optimise process', 336, 1,  purple
+359, 'acclimatise', 336, 1,  purple
+360, 'maintain a dynamic equilibrium', 336, 1,  purple
+361, 'filter-feeding shark', 360, 1,  blue
+362, 'jump', 117, 1, orange
+363, 'convert to dynamics (IP15)', 362, 1, red
+364, 'make parts independently moveable', 363, 1,  purple
+365, 'ant-lion', 364, 1,  blue
+366, 'use independent suspension', 364, 1,  purple
+367, 'lubricate', 364, 1,  purple
+368, 'nacre mechanics', 367, 1,  blue
+369, 'make parts independently responsive', 364, 1,  purple
+370, 'optimal sensory processing', 369, 1,  blue
+371, 'increase degrees of freedom', 364, 1,  purple
+372, 'change from static to dynamic field', 363, 1,  purple
+373, 'piano finger', 372, 1,  blue
+374, 'change stationary to moveable', 363, 1,  purple
+375, 'copepods predator-prey interactions', 374, 1,  blue
+376, 'evolution favours phenotypic quality cues over individuality cues', 363, 1,  purple
+377, 'deploy a structure', 363, 1,  purple
+378, 'deploy a deformation along a structure', 377, 1,  purple
+379, 'use a double helical mechanism', 377, 1,  purple
+380, 'progress to optimal operating conditions', 363, 1,  purple
+381, 'ant decisions', 380, 1,  blue
+382, 'lignified seaweed', 380, 1,  blue
+383, 'optimise environment', 380, 1,  purple
+384, 'change response threshold', 380, 1,  purple
+385, 'toad vision', 384, 1,  blue
+386, 'post-error dynamics', 384, 1,  blue
+387, 'neural threshold', 384, 1,  blue
+388, 'optimal sensory processing', 384, 1,  blue
+389, 'copulation corrupts immunity', 384, 1,  blue
+390, 'means to increase adaptiveness', 380, 1,  purple
+391, 'grazing copepods', 390, 1,  blue
+392, 'adaptive control', 390, 1,  purple
+393, 'gene network size', 392, 1,  blue
+394, 'phenotypic variability', 390, 1,  purple
+395, 'change genotype', 390, 1,  purple
+396, 'change phenotype', 390, 1,  purple
+397, 'change developmental process', 380, 1,  purple
+398, 'growth-rate lifespan', 397, 1,  blue
+399, 'resistance-tolerance', 397, 1,  blue
+400, 'ensure structure is flexible', 380, 1,  purple
+401, 'optimise object', 380, 1,  purple
+402, 'optimise process', 380, 1,  purple
+403, 'acclimatise', 380, 1,  purple
+404, 'maintain a dynamic equilibrium', 380, 1,  purple
+405, 'filter-feeding shark', 404, 1,  blue
+406, 'conduct', 117, 1, orange
+407, 'convert to dynamics (IP15)', 406, 1, red
+408, 'make parts independently moveable', 407, 1,  purple
+409, 'ant-lion', 408, 1,  blue
+410, 'use independent suspension', 408, 1,  purple
+411, 'lubricate', 408, 1,  purple
+412, 'nacre mechanics', 411, 1,  blue
+413, 'make parts independently responsive', 408, 1,  purple
+414, 'optimal sensory processing', 413, 1,  blue
+415, 'increase degrees of freedom', 408, 1,  purple
+416, 'change from static to dynamic field', 407, 1,  purple
+417, 'piano finger', 416, 1,  blue
+418, 'change stationary to moveable', 407, 1,  purple
+419, 'copepods predator-prey interactions', 418, 1,  blue
+420, 'evolution favours phenotypic quality cues over individuality cues', 407, 1,  purple
+421, 'deploy a structure', 407, 1,  purple
+422, 'deploy a deformation along a structure', 421, 1,  purple
+423, 'use a double helical mechanism', 421, 1,  purple
+424, 'progress to optimal operating conditions', 407, 1,  purple
+425, 'ant decisions', 424, 1,  blue
+426, 'lignified seaweed', 424, 1,  blue
+427, 'optimise environment', 424, 1,  purple
+428, 'change response threshold', 424, 1,  purple
+429, 'toad vision', 428, 1,  blue
+430, 'post-error dynamics', 428, 1,  blue
+431, 'neural threshold', 428, 1,  blue
+432, 'optimal sensory processing', 428, 1,  blue
+433, 'copulation corrupts immunity', 428, 1,  blue
+434, 'means to increase adaptiveness', 424, 1,  purple
+435, 'grazing copepods', 434, 1,  blue
+436, 'adaptive control', 434, 1,  purple
+437, 'gene network size', 436, 1,  blue
+438, 'phenotypic variability', 434, 1,  purple
+439, 'change genotype', 434, 1,  purple
+440, 'change phenotype', 434, 1,  purple
+441, 'change developmental process', 424, 1,  purple
+442, 'growth-rate lifespan', 441, 1,  blue
+443, 'resistance-tolerance', 441, 1,  blue
+444, 'ensure structure is flexible', 424, 1,  purple
+445, 'optimise object', 424, 1,  purple
+446, 'optimise process', 424, 1,  purple
+447, 'acclimatise', 424, 1,  purple
+448, 'maintain a dynamic equilibrium', 424, 1,  purple
+449, 'filter-feeding shark', 448, 1,  blue
+450, 'use an intermediary (IP24)', 406, 1, red
+451, 'merge two or more objects temporarily', 450, 1,  purple
+452, 'use an inhibitory binding protein', 451, 1,  purple
+453, 'use an adhesive', 451, 1,  purple
+454, 'spider muscle', 453, 1,  blue
+455, 'chameleon suction trap', 453, 1,  blue
+456, 'dissolve boundaries', 451, 1,  purple
+457, 'use an intermediary object', 450, 1,  purple
+458, 'use a sensor to monitor mediation', 457, 1,  purple
+459, 'use an object with some power of attraction', 457, 1,  purple
+460, 'use an attractive thing', 459, 1,  purple
+461, 'use an attractive quality', 459, 1,  purple
+462, 'use an intermediary carrier', 450, 1,  purple
+463, 'neural threshold', 462, 1,  blue
+464, 'use a chemical cue', 462, 1,  purple
+465, 'foraging pheromone', 464, 1,  blue
+466, 'adsorb onto a surface', 462, 1,  purple
+467, 'use a transfer mould', 462, 1,  purple
+468, 'use a template', 462, 1,  purple
+469, 'use action of an intermediary', 450, 1,  purple
+470, 'use an exchanger', 469, 1,  purple
+471, 'use a acatalyst', 469, 1,  purple
+472, 'pea aphid sterol', 471, 1,  blue
+473, 'use the action of a hormone', 469, 1,  purple
+474, 'copulation corrupts immunity', 473, 1,  blue
+475, 'modify radiation conditions', 469, 1,  purple
+476, 'diffuse with a sharp edge', 475, 1,  purple
+477, 'reflect radiation wavelengths', 475, 1,  purple
+478, 'reflect radiation intensity', 475, 1,  purple
+479, 'fly', 117, 1, orange
+480, 'convert to dynamics (IP15)', 479, 1, red
+481, 'make parts independently moveable', 480, 1,  purple
+482, 'ant-lion', 481, 1,  blue
+483, 'use independent suspension', 481, 1,  purple
+484, 'lubricate', 481, 1,  purple
+485, 'nacre mechanics', 484, 1,  blue
+486, 'make parts independently responsive', 481, 1,  purple
+487, 'optimal sensory processing', 486, 1,  blue
+488, 'increase degrees of freedom', 481, 1,  purple
+489, 'change from static to dynamic field', 480, 1,  purple
+490, 'piano finger', 489, 1,  blue
+491, 'change stationary to moveable', 480, 1,  purple
+492, 'copepods predator-prey interactions', 491, 1,  blue
+493, 'evolution favours phenotypic quality cues over individuality cues', 480, 1,  purple
+494, 'deploy a structure', 480, 1,  purple
+495, 'deploy a deformation along a structure', 494, 1,  purple
+496, 'use a double helical mechanism', 494, 1,  purple
+497, 'progress to optimal operating conditions', 480, 1,  purple
+498, 'ant decisions', 497, 1,  blue
+499, 'lignified seaweed', 497, 1,  blue
+500, 'optimise environment', 497, 1,  purple
+501, 'change response threshold', 497, 1,  purple
+502, 'toad vision', 501, 1,  blue
+503, 'post-error dynamics', 501, 1,  blue
+504, 'neural threshold', 501, 1,  blue
+505, 'optimal sensory processing', 501, 1,  blue
+506, 'copulation corrupts immunity', 501, 1,  blue
+507, 'means to increase adaptiveness', 497, 1,  purple
+508, 'grazing copepods', 507, 1,  blue
+509, 'adaptive control', 507, 1,  purple
+510, 'gene network size', 509, 1,  blue
+511, 'phenotypic variability', 507, 1,  purple
+512, 'change genotype', 507, 1,  purple
+513, 'change phenotype', 507, 1,  purple
+514, 'change developmental process', 497, 1,  purple
+515, 'growth-rate lifespan', 514, 1,  blue
+516, 'resistance-tolerance', 514, 1,  blue
+517, 'ensure structure is flexible', 497, 1,  purple
+518, 'optimise object', 497, 1,  purple
+519, 'optimise process', 497, 1,  purple
+520, 'acclimatise', 497, 1,  purple
+521, 'maintain a dynamic equilibrium', 497, 1,  purple
+522, 'filter-feeding shark', 521, 1,  blue
+523, 'guide', 0, 1, black
+524, 'position', 523, 1, green
+525, 'envelope', 524, 1, orange
+526, 'prepare a defence (IP09)', 525, 1, red
+527, 'prepare a defensive object', 526, 1,  purple
+528, 'develop a repellant surface structure', 527, 1,  purple
+529, 'prepare a mechanical defence', 526, 1,  purple
+530, 'develop an impermeable membrane', 529, 1,  purple
+531, 'encapsulate an alien object', 530, 1,  purple
+532, 'change size', 529, 1,  purple
+533, 'change strength', 529, 1,  purple
+534, 'change toughness', 529, 1,  purple
+535, 'prepare a chemical defence', 526, 1,  purple
+536, 'jasmonate and auxin', 535, 1,  blue
+537, 'use an antiviral chemical', 535, 1,  purple
+538, 'use a defence chemical', 535, 1,  purple
+539, 'use a chemical repellent', 535, 1,  purple
+540, 'develop resistance to cold', 535, 1,  purple
+541, 'introduce a toxin', 535, 1,  purple
+542, 'use an antibacterial chemical', 535, 1,  purple
+543, 'enhance immunity', 535, 1,  purple
+544, 'initiate antiaction', 526, 1,  purple
+545, 'stop', 544, 1,  purple
+546, 'expel', 544, 1,  purple
+547, 'dissipate energy', 544, 1,  purple
+548, 'repel', 544, 1,  purple
+549, 'suppress', 544, 1,  purple
+550, 'inhibit', 544, 1,  purple
+551, 'apply opposite prestrain', 544, 1,  purple
+552, 'prevent', 544, 1,  purple
+553, 'excrete', 544, 1,  purple
+554, 'groom', 544, 1,  purple
+555, 'groom a conspecific (allo-grooming)', 554, 1,  purple
+556, 'groom oneself', 554, 1,  purple
+557, 'prepare a behavioural defence', 526, 1,  purple
+558, 'initiate diversionary behaviour', 557, 1,  purple
+559, 'make a smokescreen', 558, 1,  purple
+560, 'use a mask', 557, 1,  purple
+561, 'give a warning', 557, 1,  purple
+562, 'make the surface slippery', 557, 1,  purple
+563, 'produce a gel or mucus', 562, 1,  purple
+564, 'nacre mechanics', 563, 1,  blue
+565, 'initiate pre-emptive behaviour', 526, 1,  purple
+566, 'initiate a counteraction to wave or wind', 565, 1,  purple
+567, 'stick to the substrate', 566, 1,  purple
+568, 'avoid negative event', 565, 1,  purple
+569, 'let a population migrate', 568, 1,  purple
+570, 'take avoiding action', 568, 1,  purple
+571, 'false alarms', 570, 1,  blue
+572, 'try boldness', 565, 1,  purple
+573, 'adopt a defensive strategy', 565, 1,  purple
+574, 'place or contain one object inside another (IP07)', 525, 1, red
+575, 'use interlocked inner and outer process loops', 574, 1,  purple
+576, 'consider fluid  passing through an object', 574, 1,  purple
+577, 'a tube through which fluid is flowing', 576, 1,  purple
+578, 'make one object passing through another', 574, 1,  purple
+579, 'use collapsible concentric tubes', 578, 1,  purple
+580, 'place one thing inside another', 574, 1,  purple
+581, 'rotate', 523, 1, green
+582, 'spin', 581, 1, orange
+583, 'oscillate', 581, 1, orange
+584, 'use periodic action (IP19)', 583, 1, red
+585, 'change wave shape', 584, 1,  purple
+586, 'change lengths of in and out phases', 585, 1,  purple
+587, 'use a standing wave', 584, 1,  purple
+588, 'use peristalsis', 584, 1,  purple
+589, 'change from continuous to periodic function', 584, 1,  purple
+590, 'use pulsating action', 584, 1,  purple
+591, 'change periodicity of action', 584, 1,  purple
+592, 'use spaces between impulses for other functions', 584, 1,  purple
+593, 'change a parameter (IP35)', 583, 1, red
+594, 'use hydrolysis', 593, 1,  purple
+595, 'change the temperature', 593, 1,  purple
+596, 'heat', 595, 1,  purple
+597, 'superheat', 596, 1,  purple
+598, 'cool', 595, 1,  purple
+599, 'supercool', 598, 1,  purple
+600, 'change stiffness', 593, 1,  purple
+601, 'change from flexible to stiff', 600, 1,  purple
+602, 'remove plasticiser', 601, 1,  purple
+603, 'add ceramic component', 601, 1,  purple
+604, 'increase crosslinking', 601, 1,  purple
+605, 'increase thickness', 601, 1,  purple
+606, 'increase internal pressure', 601, 1,  purple
+607, 'induce glass transition', 601, 1,  purple
+608, 'change frequency', 593, 1,  purple
+609, 'change behaviour', 593, 1,  purple
+610, 'change molecular constitution', 609, 1,  purple
+611, 'change dimensions', 593, 1,  purple
+612, 'Gambusia swimming', 611, 1,  blue
+613, 'scaling effects', 611, 1,  purple
+614, 'gene network size', 613, 1,  blue
+615, 'contraction', 611, 1,  purple
+616, 'expansion', 611, 1,  purple
+617, 'change some aspect of metabolism', 593, 1,  purple
+618, 'change phase state', 593, 1,  purple
+619, 'go below glass transition', 618, 1,  purple
+620, 'go above the glass transition', 618, 1,  purple
+621, 'solidify', 618, 1,  purple
+622, 'form a solid by self-assembly', 621, 1,  purple
+623, 'liquify', 618, 1,  purple
+624, 'gassify', 618, 1,  purple
+625, 'change amplitude', 593, 1,  purple
+626, 'toad vision', 625, 1,  blue
+627, 'change concentration', 593, 1,  purple
+628, 'allow coalescence and precipitation', 627, 1,  purple
+629, 'hold the system in an equipotential state (IP12)', 583, 1, red
+630, 'increase oxygen concentration', 629, 1,  purple
+631, 'modulate free energy', 630, 1,  purple
+632, 'maximise free energy', 631, 1,  purple
+633, 'minimise free energy', 631, 1,  purple
+634, 'thermodynamic balance', 629, 1,  purple
+635, 'modulate free energy', 634, 1,  purple
+636, 'maximise free energy', 635, 1,  purple
+637, 'minimise free energy', 635, 1,  purple
+638, 'use constant operating conditions', 629, 1,  purple
+639, 'use isometric force', 638, 1,  purple
+640, 'maintain homeostasis', 638, 1,  purple
+641, 'conserve energy', 638, 1,  purple
+642, 'generate stable environmental conditions', 638, 1,  purple
+643, 'maintain minimum energy operating conditions', 638, 1,  purple
+644, 'bird flight speed', 643, 1,  blue
+645, 'spread risk evenly', 638, 1,  purple
+646, 'false alarms', 645, 1,  blue
+647, 'use a form of energy conservation', 629, 1,  purple
+648, 'restrict movement', 647, 1,  purple
+649, 'use a spring to counter a weight', 647, 1,  purple
+650, 'use an elastic restoring force', 649, 1,  purple
+651, 'cycle energy with a spring', 647, 1,  purple
+652, 'use an elastic energy store', 651, 1,  purple
+653, 'roll', 581, 1, orange
+654, 'convert to dynamics (IP15)', 653, 1, red
+655, 'make parts independently moveable', 654, 1,  purple
+656, 'ant-lion', 655, 1,  blue
+657, 'use independent suspension', 655, 1,  purple
+658, 'lubricate', 655, 1,  purple
+659, 'nacre mechanics', 658, 1,  blue
+660, 'make parts independently responsive', 655, 1,  purple
+661, 'optimal sensory processing', 660, 1,  blue
+662, 'increase degrees of freedom', 655, 1,  purple
+663, 'change from static to dynamic field', 654, 1,  purple
+664, 'piano finger', 663, 1,  blue
+665, 'change stationary to moveable', 654, 1,  purple
+666, 'copepods predator-prey interactions', 665, 1,  blue
+667, 'evolution favours phenotypic quality cues over individuality cues', 654, 1,  purple
+668, 'deploy a structure', 654, 1,  purple
+669, 'deploy a deformation along a structure', 668, 1,  purple
+670, 'use a double helical mechanism', 668, 1,  purple
+671, 'progress to optimal operating conditions', 654, 1,  purple
+672, 'ant decisions', 671, 1,  blue
+673, 'lignified seaweed', 671, 1,  blue
+674, 'optimise environment', 671, 1,  purple
+675, 'change response threshold', 671, 1,  purple
+676, 'toad vision', 675, 1,  blue
+677, 'post-error dynamics', 675, 1,  blue
+678, 'neural threshold', 675, 1,  blue
+679, 'optimal sensory processing', 675, 1,  blue
+680, 'copulation corrupts immunity', 675, 1,  blue
+681, 'means to increase adaptiveness', 671, 1,  purple
+682, 'grazing copepods', 681, 1,  blue
+683, 'adaptive control', 681, 1,  purple
+684, 'gene network size', 683, 1,  blue
+685, 'phenotypic variability', 681, 1,  purple
+686, 'change genotype', 681, 1,  purple
+687, 'change phenotype', 681, 1,  purple
+688, 'change developmental process', 671, 1,  purple
+689, 'growth-rate lifespan', 688, 1,  blue
+690, 'resistance-tolerance', 688, 1,  blue
+691, 'ensure structure is flexible', 671, 1,  purple
+692, 'optimise object', 671, 1,  purple
+693, 'optimise process', 671, 1,  purple
+694, 'acclimatise', 671, 1,  purple
+695, 'maintain a dynamic equilibrium', 671, 1,  purple
+696, 'filter-feeding shark', 695, 1,  blue
+697, 'place or contain one object inside another (IP07)', 653, 1, red
+698, 'use interlocked inner and outer process loops', 697, 1,  purple
+699, 'consider fluid  passing through an object', 697, 1,  purple
+700, 'a tube through which fluid is flowing', 699, 1,  purple
+701, 'make one object passing through another', 697, 1,  purple
+702, 'use collapsible concentric tubes', 701, 1,  purple
+703, 'place one thing inside another', 697, 1,  purple
+704, 'swivel', 581, 1, orange
+705, 'convert to dynamics (IP15)', 704, 1, red
+706, 'make parts independently moveable', 705, 1,  purple
+707, 'ant-lion', 706, 1,  blue
+708, 'use independent suspension', 706, 1,  purple
+709, 'lubricate', 706, 1,  purple
+710, 'nacre mechanics', 709, 1,  blue
+711, 'make parts independently responsive', 706, 1,  purple
+712, 'optimal sensory processing', 711, 1,  blue
+713, 'increase degrees of freedom', 706, 1,  purple
+714, 'change from static to dynamic field', 705, 1,  purple
+715, 'piano finger', 714, 1,  blue
+716, 'change stationary to moveable', 705, 1,  purple
+717, 'copepods predator-prey interactions', 716, 1,  blue
+718, 'evolution favours phenotypic quality cues over individuality cues', 705, 1,  purple
+719, 'deploy a structure', 705, 1,  purple
+720, 'deploy a deformation along a structure', 719, 1,  purple
+721, 'use a double helical mechanism', 719, 1,  purple
+722, 'progress to optimal operating conditions', 705, 1,  purple
+723, 'ant decisions', 722, 1,  blue
+724, 'lignified seaweed', 722, 1,  blue
+725, 'optimise environment', 722, 1,  purple
+726, 'change response threshold', 722, 1,  purple
+727, 'toad vision', 726, 1,  blue
+728, 'post-error dynamics', 726, 1,  blue
+729, 'neural threshold', 726, 1,  blue
+730, 'optimal sensory processing', 726, 1,  blue
+731, 'copulation corrupts immunity', 726, 1,  blue
+732, 'means to increase adaptiveness', 722, 1,  purple
+733, 'grazing copepods', 732, 1,  blue
+734, 'adaptive control', 732, 1,  purple
+735, 'gene network size', 734, 1,  blue
+736, 'phenotypic variability', 732, 1,  purple
+737, 'change genotype', 732, 1,  purple
+738, 'change phenotype', 732, 1,  purple
+739, 'change developmental process', 722, 1,  purple
+740, 'growth-rate lifespan', 739, 1,  blue
+741, 'resistance-tolerance', 739, 1,  blue
+742, 'ensure structure is flexible', 722, 1,  purple
+743, 'optimise object', 722, 1,  purple
+744, 'optimise process', 722, 1,  purple
+745, 'acclimatise', 722, 1,  purple
+746, 'maintain a dynamic equilibrium', 722, 1,  purple
+747, 'filter-feeding shark', 746, 1,  blue
+748, 'turn', 581, 1, orange
+749, 'convert to dynamics (IP15)', 748, 1, red
+750, 'make parts independently moveable', 749, 1,  purple
+751, 'ant-lion', 750, 1,  blue
+752, 'use independent suspension', 750, 1,  purple
+753, 'lubricate', 750, 1,  purple
+754, 'nacre mechanics', 753, 1,  blue
+755, 'make parts independently responsive', 750, 1,  purple
+756, 'optimal sensory processing', 755, 1,  blue
+757, 'increase degrees of freedom', 750, 1,  purple
+758, 'change from static to dynamic field', 749, 1,  purple
+759, 'piano finger', 758, 1,  blue
+760, 'change stationary to moveable', 749, 1,  purple
+761, 'copepods predator-prey interactions', 760, 1,  blue
+762, 'evolution favours phenotypic quality cues over individuality cues', 749, 1,  purple
+763, 'deploy a structure', 749, 1,  purple
+764, 'deploy a deformation along a structure', 763, 1,  purple
+765, 'use a double helical mechanism', 763, 1,  purple
+766, 'progress to optimal operating conditions', 749, 1,  purple
+767, 'ant decisions', 766, 1,  blue
+768, 'lignified seaweed', 766, 1,  blue
+769, 'optimise environment', 766, 1,  purple
+770, 'change response threshold', 766, 1,  purple
+771, 'toad vision', 770, 1,  blue
+772, 'post-error dynamics', 770, 1,  blue
+773, 'neural threshold', 770, 1,  blue
+774, 'optimal sensory processing', 770, 1,  blue
+775, 'copulation corrupts immunity', 770, 1,  blue
+776, 'means to increase adaptiveness', 766, 1,  purple
+777, 'grazing copepods', 776, 1,  blue
+778, 'adaptive control', 776, 1,  purple
+779, 'gene network size', 778, 1,  blue
+780, 'phenotypic variability', 776, 1,  purple
+781, 'change genotype', 776, 1,  purple
+782, 'change phenotype', 776, 1,  purple
+783, 'change developmental process', 766, 1,  purple
+784, 'growth-rate lifespan', 783, 1,  blue
+785, 'resistance-tolerance', 783, 1,  blue
+786, 'ensure structure is flexible', 766, 1,  purple
+787, 'optimise object', 766, 1,  purple
+788, 'optimise process', 766, 1,  purple
+789, 'acclimatise', 766, 1,  purple
+790, 'maintain a dynamic equilibrium', 766, 1,  purple
+791, 'filter-feeding shark', 790, 1,  blue
+792, 'tunnel', 523, 1, green
+793, 'place or contain one object inside another (IP07)', 792, 1, red
+794, 'use interlocked inner and outer process loops', 793, 1,  purple
+795, 'consider fluid  passing through an object', 793, 1,  purple
+796, 'a tube through which fluid is flowing', 795, 1,  purple
+797, 'make one object passing through another', 793, 1,  purple
+798, 'use collapsible concentric tubes', 797, 1,  purple
+799, 'place one thing inside another', 793, 1,  purple
+800, 'prepare a defence (IP09)', 792, 1, red
+801, 'prepare a defensive object', 800, 1,  purple
+802, 'develop a repellant surface structure', 801, 1,  purple
+803, 'prepare a mechanical defence', 800, 1,  purple
+804, 'develop an impermeable membrane', 803, 1,  purple
+805, 'encapsulate an alien object', 804, 1,  purple
+806, 'change size', 803, 1,  purple
+807, 'change strength', 803, 1,  purple
+808, 'change toughness', 803, 1,  purple
+809, 'prepare a chemical defence', 800, 1,  purple
+810, 'jasmonate and auxin', 809, 1,  blue
+811, 'use an antiviral chemical', 809, 1,  purple
+812, 'use a defence chemical', 809, 1,  purple
+813, 'use a chemical repellent', 809, 1,  purple
+814, 'develop resistance to cold', 809, 1,  purple
+815, 'introduce a toxin', 809, 1,  purple
+816, 'use an antibacterial chemical', 809, 1,  purple
+817, 'enhance immunity', 809, 1,  purple
+818, 'initiate antiaction', 800, 1,  purple
+819, 'stop', 818, 1,  purple
+820, 'expel', 818, 1,  purple
+821, 'dissipate energy', 818, 1,  purple
+822, 'repel', 818, 1,  purple
+823, 'suppress', 818, 1,  purple
+824, 'inhibit', 818, 1,  purple
+825, 'apply opposite prestrain', 818, 1,  purple
+826, 'prevent', 818, 1,  purple
+827, 'excrete', 818, 1,  purple
+828, 'groom', 818, 1,  purple
+829, 'groom a conspecific (allo-grooming)', 828, 1,  purple
+830, 'groom oneself', 828, 1,  purple
+831, 'prepare a behavioural defence', 800, 1,  purple
+832, 'initiate diversionary behaviour', 831, 1,  purple
+833, 'make a smokescreen', 832, 1,  purple
+834, 'use a mask', 831, 1,  purple
+835, 'give a warning', 831, 1,  purple
+836, 'make the surface slippery', 831, 1,  purple
+837, 'produce a gel or mucus', 836, 1,  purple
+838, 'nacre mechanics', 837, 1,  blue
+839, 'initiate pre-emptive behaviour', 800, 1,  purple
+840, 'initiate a counteraction to wave or wind', 839, 1,  purple
+841, 'stick to the substrate', 840, 1,  purple
+842, 'avoid negative event', 839, 1,  purple
+843, 'let a population migrate', 842, 1,  purple
+844, 'take avoiding action', 842, 1,  purple
+845, 'false alarms', 844, 1,  blue
+846, 'try boldness', 839, 1,  purple
+847, 'adopt a defensive strategy', 839, 1,  purple
+848, 'allow_dof', 523, 1, green
+849, 'articulate', 848, 1, orange
+850, 'convert to dynamics (IP15)', 849, 1, red
+851, 'make parts independently moveable', 850, 1,  purple
+852, 'ant-lion', 851, 1,  blue
+853, 'use independent suspension', 851, 1,  purple
+854, 'lubricate', 851, 1,  purple
+855, 'nacre mechanics', 854, 1,  blue
+856, 'make parts independently responsive', 851, 1,  purple
+857, 'optimal sensory processing', 856, 1,  blue
+858, 'increase degrees of freedom', 851, 1,  purple
+859, 'change from static to dynamic field', 850, 1,  purple
+860, 'piano finger', 859, 1,  blue
+861, 'change stationary to moveable', 850, 1,  purple
+862, 'copepods predator-prey interactions', 861, 1,  blue
+863, 'evolution favours phenotypic quality cues over individuality cues', 850, 1,  purple
+864, 'deploy a structure', 850, 1,  purple
+865, 'deploy a deformation along a structure', 864, 1,  purple
+866, 'use a double helical mechanism', 864, 1,  purple
+867, 'progress to optimal operating conditions', 850, 1,  purple
+868, 'ant decisions', 867, 1,  blue
+869, 'lignified seaweed', 867, 1,  blue
+870, 'optimise environment', 867, 1,  purple
+871, 'change response threshold', 867, 1,  purple
+872, 'toad vision', 871, 1,  blue
+873, 'post-error dynamics', 871, 1,  blue
+874, 'neural threshold', 871, 1,  blue
+875, 'optimal sensory processing', 871, 1,  blue
+876, 'copulation corrupts immunity', 871, 1,  blue
+877, 'means to increase adaptiveness', 867, 1,  purple
+878, 'grazing copepods', 877, 1,  blue
+879, 'adaptive control', 877, 1,  purple
+880, 'gene network size', 879, 1,  blue
+881, 'phenotypic variability', 877, 1,  purple
+882, 'change genotype', 877, 1,  purple
+883, 'change phenotype', 877, 1,  purple
+884, 'change developmental process', 867, 1,  purple
+885, 'growth-rate lifespan', 884, 1,  blue
+886, 'resistance-tolerance', 884, 1,  blue
+887, 'ensure structure is flexible', 867, 1,  purple
+888, 'optimise object', 867, 1,  purple
+889, 'optimise process', 867, 1,  purple
+890, 'acclimatise', 867, 1,  purple
+891, 'maintain a dynamic equilibrium', 867, 1,  purple
+892, 'filter-feeding shark', 891, 1,  blue
+893, 'translate', 523, 1, green
+894, 'synthesize', 893, 1, orange
+895, 'prepare a defence (IP09)', 894, 1, red
+896, 'prepare a defensive object', 895, 1,  purple
+897, 'develop a repellant surface structure', 896, 1,  purple
+898, 'prepare a mechanical defence', 895, 1,  purple
+899, 'develop an impermeable membrane', 898, 1,  purple
+900, 'encapsulate an alien object', 899, 1,  purple
+901, 'change size', 898, 1,  purple
+902, 'change strength', 898, 1,  purple
+903, 'change toughness', 898, 1,  purple
+904, 'prepare a chemical defence', 895, 1,  purple
+905, 'jasmonate and auxin', 904, 1,  blue
+906, 'use an antiviral chemical', 904, 1,  purple
+907, 'use a defence chemical', 904, 1,  purple
+908, 'use a chemical repellent', 904, 1,  purple
+909, 'develop resistance to cold', 904, 1,  purple
+910, 'introduce a toxin', 904, 1,  purple
+911, 'use an antibacterial chemical', 904, 1,  purple
+912, 'enhance immunity', 904, 1,  purple
+913, 'initiate antiaction', 895, 1,  purple
+914, 'stop', 913, 1,  purple
+915, 'expel', 913, 1,  purple
+916, 'dissipate energy', 913, 1,  purple
+917, 'repel', 913, 1,  purple
+918, 'suppress', 913, 1,  purple
+919, 'inhibit', 913, 1,  purple
+920, 'apply opposite prestrain', 913, 1,  purple
+921, 'prevent', 913, 1,  purple
+922, 'excrete', 913, 1,  purple
+923, 'groom', 913, 1,  purple
+924, 'groom a conspecific (allo-grooming)', 923, 1,  purple
+925, 'groom oneself', 923, 1,  purple
+926, 'prepare a behavioural defence', 895, 1,  purple
+927, 'initiate diversionary behaviour', 926, 1,  purple
+928, 'make a smokescreen', 927, 1,  purple
+929, 'use a mask', 926, 1,  purple
+930, 'give a warning', 926, 1,  purple
+931, 'make the surface slippery', 926, 1,  purple
+932, 'produce a gel or mucus', 931, 1,  purple
+933, 'nacre mechanics', 932, 1,  blue
+934, 'initiate pre-emptive behaviour', 895, 1,  purple
+935, 'initiate a counteraction to wave or wind', 934, 1,  purple
+936, 'stick to the substrate', 935, 1,  purple
+937, 'avoid negative event', 934, 1,  purple
+938, 'let a population migrate', 937, 1,  purple
+939, 'take avoiding action', 937, 1,  purple
+940, 'false alarms', 939, 1,  blue
+941, 'try boldness', 934, 1,  purple
+942, 'adopt a defensive strategy', 934, 1,  purple
+943, 'use an intermediary (IP24)', 894, 1, red
+944, 'merge two or more objects temporarily', 943, 1,  purple
+945, 'use an inhibitory binding protein', 944, 1,  purple
+946, 'use an adhesive', 944, 1,  purple
+947, 'spider muscle', 946, 1,  blue
+948, 'chameleon suction trap', 946, 1,  blue
+949, 'dissolve boundaries', 944, 1,  purple
+950, 'use an intermediary object', 943, 1,  purple
+951, 'use a sensor to monitor mediation', 950, 1,  purple
+952, 'use an object with some power of attraction', 950, 1,  purple
+953, 'use an attractive thing', 952, 1,  purple
+954, 'use an attractive quality', 952, 1,  purple
+955, 'use an intermediary carrier', 943, 1,  purple
+956, 'neural threshold', 955, 1,  blue
+957, 'use a chemical cue', 955, 1,  purple
+958, 'foraging pheromone', 957, 1,  blue
+959, 'adsorb onto a surface', 955, 1,  purple
+960, 'use a transfer mould', 955, 1,  purple
+961, 'use a template', 955, 1,  purple
+962, 'use action of an intermediary', 943, 1,  purple
+963, 'use an exchanger', 962, 1,  purple
+964, 'use a acatalyst', 962, 1,  purple
+965, 'pea aphid sterol', 964, 1,  blue
+966, 'use the action of a hormone', 962, 1,  purple
+967, 'copulation corrupts immunity', 966, 1,  blue
+968, 'modify radiation conditions', 962, 1,  purple
+969, 'diffuse with a sharp edge', 968, 1,  purple
+970, 'reflect radiation wavelengths', 968, 1,  purple
+971, 'reflect radiation intensity', 968, 1,  purple
+972, 'transcribe', 893, 1, orange
+973, 'orient', 523, 1, green
+974, 'prepare for action (IP10)', 973, 1, red
+975, 'adapt timing', 974, 1,  purple
+976, 'use seasonal periodicity', 975, 1,  purple
+977, 'develop dormancy', 976, 1,  purple
+978, 'use daily periodicity', 975, 1,  purple
+979, 'diurnal activity', 978, 1,  purple
+980, 'crepuscular activity', 978, 1,  purple
+981, 'nocturnal activity', 978, 1,  purple
+982, 'develop ability to predict', 975, 1,  purple
+983, 'post-error dynamics', 982, 1,  blue
+984, 'piano finger', 982, 1,  blue
+985, 'respond to photoperiod', 982, 1,  purple
+986, 'degree of specialisation', 974, 1,  purple
+987, 'specialise', 986, 1,  purple
+988, 'generalise', 986, 1,  purple
+989, 'adapt morphology', 974, 1,  purple
+990, 'Gambusia swimming', 989, 1,  blue
+991, 'use a breakable membrane', 989, 1,  purple
+992, 'invest more energy into structure', 989, 1,  purple
+993, 'pre-adapt', 989, 1,  purple
+994, 'adapt physiology', 974, 1,  purple
+995, 'foraging pheromone', 994, 1,  blue
+996, 'ant decisions', 994, 1,  blue
+997, 'copulation corrupts immunity', 994, 1,  blue
+998, 'increase immune response', 994, 1,  purple
+999, 'decrease immune response', 994, 1,  purple
+1000, 'corticosteroid and feathers', 999, 1,  blue
+1001, 'adapt behaviour', 974, 1,  purple
+1002, 'acquire resource', 1001, 1,  purple
+1003, 'copepods predator-prey interactions', 1002, 1,  blue
+1004, 'store resource', 1001, 1,  purple
+1005, 'store nutrition', 1004, 1,  purple
+1006, 'store water', 1004, 1,  purple
+1007, 'store elastic energy', 1004, 1,  purple
+1008, 'use stored resource', 1004, 1,  purple
+1009, 'ejaculate economics', 1008, 1,  blue
+1010, 'jasmonate and auxin', 1008, 1,  blue
+1011, 'consolidate (IP05)', 973, 1, red
+1012, 'accumulate information', 1011, 1,  purple
+1013, 'use an integrated accumulator', 1012, 1,  purple
+1014, 'post-error dynamics', 1013, 1,  blue
+1015, 'neural threshold', 1013, 1,  blue
+1016, 'use a linear ballistic accumulator', 1012, 1,  purple
+1017, 'optimal sensory processing', 1016, 1,  blue
+1018, 'integrate several objects or systems', 1012, 1,  purple
+1019, 'toad vision', 1018, 1,  blue
+1020, 'generate a network', 1018, 1,  purple
+1021, 'gene network size', 1020, 1,  blue
+1022, 'assemble identical objects', 1011, 1,  purple
+1023, 'form a swarm or group', 1022, 1,  purple
+1024, 'generate an array', 1022, 1,  purple
+1025, 'polymerise monomers', 1022, 1,  purple
+1026, 'specialise material or system function', 1022, 1,  purple
+1027, 'make operations contiguous', 1011, 1,  purple
+1028, 'group similar objects together', 1011, 1,  purple
+1029, 'sick bees', 1028, 1,  blue
+1030, 'make operations parallel', 1011, 1,  purple
+1031, 'merge components', 1011, 1,  purple
+1032, 'bloodworm mandible', 1031, 1,  blue
+1033, 'functionally separated bifunctional component', 1031, 1,  purple
+1034, 'segment before merging', 1031, 1,  purple
+1035, 'bind selectively', 1031, 1,  purple
+1036, 'fitness and stability', 1035, 1,  blue
+1037, 'epitaxial bonding', 1031, 1,  purple
+1038, 'move everything up towards the front end', 1031, 1,  purple
+1039, 'use feedback (IP23)', 973, 1, red
+1040, 'use negative feedback', 1039, 1,  purple
+1041, 'inhibit', 1040, 1,  purple
+1042, 'initiate stability control', 1040, 1,  purple
+1043, 'use positive feedback', 1039, 1,  purple
+1044, 'foraging pheromone', 1043, 1,  blue
+1045, 'use a nonlinear positive feedback', 1043, 1,  purple
+1046, 'ant decisions', 1045, 1,  blue
+1047, 'amplify feedback', 1043, 1,  purple
+1048, 'excite', 1043, 1,  purple
+1049, 'allow genetic feedback and control', 1039, 1,  purple
+1050, 'use population control', 1039, 1,  purple
+1051, 'use neural or electronic feedback', 1039, 1,  purple
+1052, 'use physiological feedback', 1039, 1,  purple
+1053, 'use behavioural feedback', 1039, 1,  purple
+1054, 'grazing copepods', 1053, 1,  blue
+1055, 'filter-feeding shark', 1053, 1,  blue
+1056, 'learn', 1053, 1,  purple
+1057, 'false alarms', 1056, 1,  blue
+1058, 'come to a concensual agreement', 1053, 1,  purple
+1059, 'ant decisions', 1058, 1,  blue
+1060, 'sick bees', 1058, 1,  blue
+1061, 'follow a pre-existing trail', 1053, 1,  purple
+1062, 'use a form of sensory feedback', 1039, 1,  purple
+1063, 'use vibrational feedback', 1062, 1,  purple
+1064, 'use audio feedback', 1062, 1,  purple
+1065, 'use a broad frequency band', 1064, 1,  purple
+1066, 'detect a shift or change in frequency', 1064, 1,  purple
+1067, 'use proprioception', 1062, 1,  purple
+1068, 'use position feedback', 1067, 1,  purple
+1069, 'ant-lion', 1068, 1,  blue
+1070, 'use optical feedback', 1062, 1,  purple
+1071, 'use feedback from flowing fluid', 1062, 1,  purple
+1072, 'copepods predator-prey interactions', 1071, 1,  blue
+1073, 'use gravity feedback', 1062, 1,  purple
+1074, 'use a mechanical feedback', 1062, 1,  purple
+1075, 'piano finger', 1074, 1,  blue
+1076, 'use visual feedback', 1062, 1,  purple
+1077, 'use linear feedback', 1039, 1,  purple
+1078, 'use passive feedback', 1039, 1,  purple
+1079, 'set sensitivity inverse to input signal', 1078, 1,  purple
+1080, 'use automatic control', 1039, 1,  purple
+1081, 'implement quality control', 1080, 1,  purple
+1082, 'ejaculate economics', 1081, 1,  blue
+1083, 'optimise the signal-to-noise ratio', 1081, 1,  purple
+1084, 'toad vision', 1083, 1,  blue
+1085, 'use natural selection', 1080, 1,  purple
+1086, 'be sensitive to environmental cues', 1080, 1,  purple
+1087, 'copepods predator-prey interactions', 1086, 1,  blue
+1088, 'use adaptive evolution', 1080, 1,  purple
+1089, 'fitness and stability', 1088, 1,  blue
+1090, 'use morphological feedback', 1039, 1,  purple
+1091, 'use error correction', 1039, 1,  purple
+1092, 'post-error dynamics', 1091, 1,  blue
+1093, 'slide', 523, 1, green
+1094, 'export', 0, 1, black
+1095, 'bind', 1094, 1, green
+1096, 'use an intermediary (IP24)', 1095, 1, red
+1097, 'merge two or more objects temporarily', 1096, 1,  purple
+1098, 'use an inhibitory binding protein', 1097, 1,  purple
+1099, 'use an adhesive', 1097, 1,  purple
+1100, 'spider muscle', 1099, 1,  blue
+1101, 'chameleon suction trap', 1099, 1,  blue
+1102, 'dissolve boundaries', 1097, 1,  purple
+1103, 'use an intermediary object', 1096, 1,  purple
+1104, 'use a sensor to monitor mediation', 1103, 1,  purple
+1105, 'use an object with some power of attraction', 1103, 1,  purple
+1106, 'use an attractive thing', 1105, 1,  purple
+1107, 'use an attractive quality', 1105, 1,  purple
+1108, 'use an intermediary carrier', 1096, 1,  purple
+1109, 'neural threshold', 1108, 1,  blue
+1110, 'use a chemical cue', 1108, 1,  purple
+1111, 'foraging pheromone', 1110, 1,  blue
+1112, 'adsorb onto a surface', 1108, 1,  purple
+1113, 'use a transfer mould', 1108, 1,  purple
+1114, 'use a template', 1108, 1,  purple
+1115, 'use action of an intermediary', 1096, 1,  purple
+1116, 'use an exchanger', 1115, 1,  purple
+1117, 'use a acatalyst', 1115, 1,  purple
+1118, 'pea aphid sterol', 1117, 1,  blue
+1119, 'use the action of a hormone', 1115, 1,  purple
+1120, 'copulation corrupts immunity', 1119, 1,  blue
+1121, 'modify radiation conditions', 1115, 1,  purple
+1122, 'diffuse with a sharp edge', 1121, 1,  purple
+1123, 'reflect radiation wavelengths', 1121, 1,  purple
+1124, 'reflect radiation intensity', 1121, 1,  purple
+1125, 'consolidate (IP05)', 1095, 1, red
+1126, 'accumulate information', 1125, 1,  purple
+1127, 'use an integrated accumulator', 1126, 1,  purple
+1128, 'post-error dynamics', 1127, 1,  blue
+1129, 'neural threshold', 1127, 1,  blue
+1130, 'use a linear ballistic accumulator', 1126, 1,  purple
+1131, 'optimal sensory processing', 1130, 1,  blue
+1132, 'integrate several objects or systems', 1126, 1,  purple
+1133, 'toad vision', 1132, 1,  blue
+1134, 'generate a network', 1132, 1,  purple
+1135, 'gene network size', 1134, 1,  blue
+1136, 'assemble identical objects', 1125, 1,  purple
+1137, 'form a swarm or group', 1136, 1,  purple
+1138, 'generate an array', 1136, 1,  purple
+1139, 'polymerise monomers', 1136, 1,  purple
+1140, 'specialise material or system function', 1136, 1,  purple
+1141, 'make operations contiguous', 1125, 1,  purple
+1142, 'group similar objects together', 1125, 1,  purple
+1143, 'sick bees', 1142, 1,  blue
+1144, 'make operations parallel', 1125, 1,  purple
+1145, 'merge components', 1125, 1,  purple
+1146, 'bloodworm mandible', 1145, 1,  blue
+1147, 'functionally separated bifunctional component', 1145, 1,  purple
+1148, 'segment before merging', 1145, 1,  purple
+1149, 'bind selectively', 1145, 1,  purple
+1150, 'fitness and stability', 1149, 1,  blue
+1151, 'epitaxial bonding', 1145, 1,  purple
+1152, 'move everything up towards the front end', 1145, 1,  purple
+1153, 'repel', 1094, 1, green
+1154, 'prepare a defence (IP09)', 1153, 1, red
+1155, 'prepare a defensive object', 1154, 1,  purple
+1156, 'develop a repellant surface structure', 1155, 1,  purple
+1157, 'prepare a mechanical defence', 1154, 1,  purple
+1158, 'develop an impermeable membrane', 1157, 1,  purple
+1159, 'encapsulate an alien object', 1158, 1,  purple
+1160, 'change size', 1157, 1,  purple
+1161, 'change strength', 1157, 1,  purple
+1162, 'change toughness', 1157, 1,  purple
+1163, 'prepare a chemical defence', 1154, 1,  purple
+1164, 'jasmonate and auxin', 1163, 1,  blue
+1165, 'use an antiviral chemical', 1163, 1,  purple
+1166, 'use a defence chemical', 1163, 1,  purple
+1167, 'use a chemical repellent', 1163, 1,  purple
+1168, 'develop resistance to cold', 1163, 1,  purple
+1169, 'introduce a toxin', 1163, 1,  purple
+1170, 'use an antibacterial chemical', 1163, 1,  purple
+1171, 'enhance immunity', 1163, 1,  purple
+1172, 'initiate antiaction', 1154, 1,  purple
+1173, 'stop', 1172, 1,  purple
+1174, 'expel', 1172, 1,  purple
+1175, 'dissipate energy', 1172, 1,  purple
+1176, 'repel', 1172, 1,  purple
+1177, 'suppress', 1172, 1,  purple
+1178, 'inhibit', 1172, 1,  purple
+1179, 'apply opposite prestrain', 1172, 1,  purple
+1180, 'prevent', 1172, 1,  purple
+1181, 'excrete', 1172, 1,  purple
+1182, 'groom', 1172, 1,  purple
+1183, 'groom a conspecific (allo-grooming)', 1182, 1,  purple
+1184, 'groom oneself', 1182, 1,  purple
+1185, 'prepare a behavioural defence', 1154, 1,  purple
+1186, 'initiate diversionary behaviour', 1185, 1,  purple
+1187, 'make a smokescreen', 1186, 1,  purple
+1188, 'use a mask', 1185, 1,  purple
+1189, 'give a warning', 1185, 1,  purple
+1190, 'make the surface slippery', 1185, 1,  purple
+1191, 'produce a gel or mucus', 1190, 1,  purple
+1192, 'nacre mechanics', 1191, 1,  blue
+1193, 'initiate pre-emptive behaviour', 1154, 1,  purple
+1194, 'initiate a counteraction to wave or wind', 1193, 1,  purple
+1195, 'stick to the substrate', 1194, 1,  purple
+1196, 'avoid negative event', 1193, 1,  purple
+1197, 'let a population migrate', 1196, 1,  purple
+1198, 'take avoiding action', 1196, 1,  purple
+1199, 'false alarms', 1198, 1,  blue
+1200, 'try boldness', 1193, 1,  purple
+1201, 'adopt a defensive strategy', 1193, 1,  purple
+1202, 'excrete', 1094, 1, green
+1203, 'prepare a defence (IP09)', 1202, 1, red
+1204, 'prepare a defensive object', 1203, 1,  purple
+1205, 'develop a repellant surface structure', 1204, 1,  purple
+1206, 'prepare a mechanical defence', 1203, 1,  purple
+1207, 'develop an impermeable membrane', 1206, 1,  purple
+1208, 'encapsulate an alien object', 1207, 1,  purple
+1209, 'change size', 1206, 1,  purple
+1210, 'change strength', 1206, 1,  purple
+1211, 'change toughness', 1206, 1,  purple
+1212, 'prepare a chemical defence', 1203, 1,  purple
+1213, 'jasmonate and auxin', 1212, 1,  blue
+1214, 'use an antiviral chemical', 1212, 1,  purple
+1215, 'use a defence chemical', 1212, 1,  purple
+1216, 'use a chemical repellent', 1212, 1,  purple
+1217, 'develop resistance to cold', 1212, 1,  purple
+1218, 'introduce a toxin', 1212, 1,  purple
+1219, 'use an antibacterial chemical', 1212, 1,  purple
+1220, 'enhance immunity', 1212, 1,  purple
+1221, 'initiate antiaction', 1203, 1,  purple
+1222, 'stop', 1221, 1,  purple
+1223, 'expel', 1221, 1,  purple
+1224, 'dissipate energy', 1221, 1,  purple
+1225, 'repel', 1221, 1,  purple
+1226, 'suppress', 1221, 1,  purple
+1227, 'inhibit', 1221, 1,  purple
+1228, 'apply opposite prestrain', 1221, 1,  purple
+1229, 'prevent', 1221, 1,  purple
+1230, 'excrete', 1221, 1,  purple
+1231, 'groom', 1221, 1,  purple
+1232, 'groom a conspecific (allo-grooming)', 1231, 1,  purple
+1233, 'groom oneself', 1231, 1,  purple
+1234, 'prepare a behavioural defence', 1203, 1,  purple
+1235, 'initiate diversionary behaviour', 1234, 1,  purple
+1236, 'make a smokescreen', 1235, 1,  purple
+1237, 'use a mask', 1234, 1,  purple
+1238, 'give a warning', 1234, 1,  purple
+1239, 'make the surface slippery', 1234, 1,  purple
+1240, 'produce a gel or mucus', 1239, 1,  purple
+1241, 'nacre mechanics', 1240, 1,  blue
+1242, 'initiate pre-emptive behaviour', 1203, 1,  purple
+1243, 'initiate a counteraction to wave or wind', 1242, 1,  purple
+1244, 'stick to the substrate', 1243, 1,  purple
+1245, 'avoid negative event', 1242, 1,  purple
+1246, 'let a population migrate', 1245, 1,  purple
+1247, 'take avoiding action', 1245, 1,  purple
+1248, 'false alarms', 1247, 1,  blue
+1249, 'try boldness', 1242, 1,  purple
+1250, 'adopt a defensive strategy', 1242, 1,  purple
+1251, 'use feedback (IP23)', 1202, 1, red
+1252, 'use negative feedback', 1251, 1,  purple
+1253, 'inhibit', 1252, 1,  purple
+1254, 'initiate stability control', 1252, 1,  purple
+1255, 'use positive feedback', 1251, 1,  purple
+1256, 'foraging pheromone', 1255, 1,  blue
+1257, 'use a nonlinear positive feedback', 1255, 1,  purple
+1258, 'ant decisions', 1257, 1,  blue
+1259, 'amplify feedback', 1255, 1,  purple
+1260, 'excite', 1255, 1,  purple
+1261, 'allow genetic feedback and control', 1251, 1,  purple
+1262, 'use population control', 1251, 1,  purple
+1263, 'use neural or electronic feedback', 1251, 1,  purple
+1264, 'use physiological feedback', 1251, 1,  purple
+1265, 'use behavioural feedback', 1251, 1,  purple
+1266, 'grazing copepods', 1265, 1,  blue
+1267, 'filter-feeding shark', 1265, 1,  blue
+1268, 'learn', 1265, 1,  purple
+1269, 'false alarms', 1268, 1,  blue
+1270, 'come to a concensual agreement', 1265, 1,  purple
+1271, 'ant decisions', 1270, 1,  blue
+1272, 'sick bees', 1270, 1,  blue
+1273, 'follow a pre-existing trail', 1265, 1,  purple
+1274, 'use a form of sensory feedback', 1251, 1,  purple
+1275, 'use vibrational feedback', 1274, 1,  purple
+1276, 'use audio feedback', 1274, 1,  purple
+1277, 'use a broad frequency band', 1276, 1,  purple
+1278, 'detect a shift or change in frequency', 1276, 1,  purple
+1279, 'use proprioception', 1274, 1,  purple
+1280, 'use position feedback', 1279, 1,  purple
+1281, 'ant-lion', 1280, 1,  blue
+1282, 'use optical feedback', 1274, 1,  purple
+1283, 'use feedback from flowing fluid', 1274, 1,  purple
+1284, 'copepods predator-prey interactions', 1283, 1,  blue
+1285, 'use gravity feedback', 1274, 1,  purple
+1286, 'use a mechanical feedback', 1274, 1,  purple
+1287, 'piano finger', 1286, 1,  blue
+1288, 'use visual feedback', 1274, 1,  purple
+1289, 'use linear feedback', 1251, 1,  purple
+1290, 'use passive feedback', 1251, 1,  purple
+1291, 'set sensitivity inverse to input signal', 1290, 1,  purple
+1292, 'use automatic control', 1251, 1,  purple
+1293, 'implement quality control', 1292, 1,  purple
+1294, 'ejaculate economics', 1293, 1,  blue
+1295, 'optimise the signal-to-noise ratio', 1293, 1,  purple
+1296, 'toad vision', 1295, 1,  blue
+1297, 'use natural selection', 1292, 1,  purple
+1298, 'be sensitive to environmental cues', 1292, 1,  purple
+1299, 'copepods predator-prey interactions', 1298, 1,  blue
+1300, 'use adaptive evolution', 1292, 1,  purple
+1301, 'fitness and stability', 1300, 1,  blue
+1302, 'use morphological feedback', 1251, 1,  purple
+1303, 'use error correction', 1251, 1,  purple
+1304, 'post-error dynamics', 1303, 1,  blue
+1305, 'extract and separate (IP02)', 1202, 1, red
+1306, 'feed selectively', 1305, 1,  purple
+1307, 'filter-feeding shark', 1306, 1,  blue
+1308, 'use a filter', 1306, 1,  purple
+1309, 'isolate useful function', 1305, 1,  purple
+1310, 'isolate with a membrane', 1309, 1,  purple
+1311, 'insulate', 1309, 1,  purple
+1312, 'extract solids', 1305, 1,  purple
+1313, 'digest solids', 1312, 1,  purple
+1314, 'separation in space', 1305, 1,  purple
+1315, 'extract fluids', 1305, 1,  purple
+1316, 'adsorb selectively', 1315, 1,  purple
+1317, 'digest fluids', 1315, 1,  purple
+1318, 'absorb selectively', 1315, 1,  purple
+1319, 'diffuse selectively', 1315, 1,  purple
+1320, 'separation in time', 1305, 1,  purple
+1321, 'remove interference', 1305, 1,  purple
+1322, 'selective dissolution', 1321, 1,  purple
+1323, 'filter noisy signal', 1321, 1,  purple
+1324, 'extract information', 1305, 1,  purple
+1325, 'inactivate', 1094, 1, green
+1326, 'convert to dynamics (IP15)', 1325, 1, red
+1327, 'make parts independently moveable', 1326, 1,  purple
+1328, 'ant-lion', 1327, 1,  blue
+1329, 'use independent suspension', 1327, 1,  purple
+1330, 'lubricate', 1327, 1,  purple
+1331, 'nacre mechanics', 1330, 1,  blue
+1332, 'make parts independently responsive', 1327, 1,  purple
+1333, 'optimal sensory processing', 1332, 1,  blue
+1334, 'increase degrees of freedom', 1327, 1,  purple
+1335, 'change from static to dynamic field', 1326, 1,  purple
+1336, 'piano finger', 1335, 1,  blue
+1337, 'change stationary to moveable', 1326, 1,  purple
+1338, 'copepods predator-prey interactions', 1337, 1,  blue
+1339, 'evolution favours phenotypic quality cues over individuality cues', 1326, 1,  purple
+1340, 'deploy a structure', 1326, 1,  purple
+1341, 'deploy a deformation along a structure', 1340, 1,  purple
+1342, 'use a double helical mechanism', 1340, 1,  purple
+1343, 'progress to optimal operating conditions', 1326, 1,  purple
+1344, 'ant decisions', 1343, 1,  blue
+1345, 'lignified seaweed', 1343, 1,  blue
+1346, 'optimise environment', 1343, 1,  purple
+1347, 'change response threshold', 1343, 1,  purple
+1348, 'toad vision', 1347, 1,  blue
+1349, 'post-error dynamics', 1347, 1,  blue
+1350, 'neural threshold', 1347, 1,  blue
+1351, 'optimal sensory processing', 1347, 1,  blue
+1352, 'copulation corrupts immunity', 1347, 1,  blue
+1353, 'means to increase adaptiveness', 1343, 1,  purple
+1354, 'grazing copepods', 1353, 1,  blue
+1355, 'adaptive control', 1353, 1,  purple
+1356, 'gene network size', 1355, 1,  blue
+1357, 'phenotypic variability', 1353, 1,  purple
+1358, 'change genotype', 1353, 1,  purple
+1359, 'change phenotype', 1353, 1,  purple
+1360, 'change developmental process', 1343, 1,  purple
+1361, 'growth-rate lifespan', 1360, 1,  blue
+1362, 'resistance-tolerance', 1360, 1,  blue
+1363, 'ensure structure is flexible', 1343, 1,  purple
+1364, 'optimise object', 1343, 1,  purple
+1365, 'optimise process', 1343, 1,  purple
+1366, 'acclimatise', 1343, 1,  purple
+1367, 'maintain a dynamic equilibrium', 1343, 1,  purple
+1368, 'filter-feeding shark', 1367, 1,  blue
+1369, 'block', 1094, 1, green
+1370, 'extract and separate (IP02)', 1369, 1, red
+1371, 'feed selectively', 1370, 1,  purple
+1372, 'filter-feeding shark', 1371, 1,  blue
+1373, 'use a filter', 1371, 1,  purple
+1374, 'isolate useful function', 1370, 1,  purple
+1375, 'isolate with a membrane', 1374, 1,  purple
+1376, 'insulate', 1374, 1,  purple
+1377, 'extract solids', 1370, 1,  purple
+1378, 'digest solids', 1377, 1,  purple
+1379, 'separation in space', 1370, 1,  purple
+1380, 'extract fluids', 1370, 1,  purple
+1381, 'adsorb selectively', 1380, 1,  purple
+1382, 'digest fluids', 1380, 1,  purple
+1383, 'absorb selectively', 1380, 1,  purple
+1384, 'diffuse selectively', 1380, 1,  purple
+1385, 'separation in time', 1370, 1,  purple
+1386, 'remove interference', 1370, 1,  purple
+1387, 'selective dissolution', 1386, 1,  purple
+1388, 'filter noisy signal', 1386, 1,  purple
+1389, 'extract information', 1370, 1,  purple
+1390, 'prepare a defence (IP09)', 1369, 1, red
+1391, 'prepare a defensive object', 1390, 1,  purple
+1392, 'develop a repellant surface structure', 1391, 1,  purple
+1393, 'prepare a mechanical defence', 1390, 1,  purple
+1394, 'develop an impermeable membrane', 1393, 1,  purple
+1395, 'encapsulate an alien object', 1394, 1,  purple
+1396, 'change size', 1393, 1,  purple
+1397, 'change strength', 1393, 1,  purple
+1398, 'change toughness', 1393, 1,  purple
+1399, 'prepare a chemical defence', 1390, 1,  purple
+1400, 'jasmonate and auxin', 1399, 1,  blue
+1401, 'use an antiviral chemical', 1399, 1,  purple
+1402, 'use a defence chemical', 1399, 1,  purple
+1403, 'use a chemical repellent', 1399, 1,  purple
+1404, 'develop resistance to cold', 1399, 1,  purple
+1405, 'introduce a toxin', 1399, 1,  purple
+1406, 'use an antibacterial chemical', 1399, 1,  purple
+1407, 'enhance immunity', 1399, 1,  purple
+1408, 'initiate antiaction', 1390, 1,  purple
+1409, 'stop', 1408, 1,  purple
+1410, 'expel', 1408, 1,  purple
+1411, 'dissipate energy', 1408, 1,  purple
+1412, 'repel', 1408, 1,  purple
+1413, 'suppress', 1408, 1,  purple
+1414, 'inhibit', 1408, 1,  purple
+1415, 'apply opposite prestrain', 1408, 1,  purple
+1416, 'prevent', 1408, 1,  purple
+1417, 'excrete', 1408, 1,  purple
+1418, 'groom', 1408, 1,  purple
+1419, 'groom a conspecific (allo-grooming)', 1418, 1,  purple
+1420, 'groom oneself', 1418, 1,  purple
+1421, 'prepare a behavioural defence', 1390, 1,  purple
+1422, 'initiate diversionary behaviour', 1421, 1,  purple
+1423, 'make a smokescreen', 1422, 1,  purple
+1424, 'use a mask', 1421, 1,  purple
+1425, 'give a warning', 1421, 1,  purple
+1426, 'make the surface slippery', 1421, 1,  purple
+1427, 'produce a gel or mucus', 1426, 1,  purple
+1428, 'nacre mechanics', 1427, 1,  blue
+1429, 'initiate pre-emptive behaviour', 1390, 1,  purple
+1430, 'initiate a counteraction to wave or wind', 1429, 1,  purple
+1431, 'stick to the substrate', 1430, 1,  purple
+1432, 'avoid negative event', 1429, 1,  purple
+1433, 'let a population migrate', 1432, 1,  purple
+1434, 'take avoiding action', 1432, 1,  purple
+1435, 'false alarms', 1434, 1,  blue
+1436, 'try boldness', 1429, 1,  purple
+1437, 'adopt a defensive strategy', 1429, 1,  purple
+1438, 'breakdown', 1094, 1, green
+1439, 'consolidate (IP05)', 1438, 1, red
+1440, 'accumulate information', 1439, 1,  purple
+1441, 'use an integrated accumulator', 1440, 1,  purple
+1442, 'post-error dynamics', 1441, 1,  blue
+1443, 'neural threshold', 1441, 1,  blue
+1444, 'use a linear ballistic accumulator', 1440, 1,  purple
+1445, 'optimal sensory processing', 1444, 1,  blue
+1446, 'integrate several objects or systems', 1440, 1,  purple
+1447, 'toad vision', 1446, 1,  blue
+1448, 'generate a network', 1446, 1,  purple
+1449, 'gene network size', 1448, 1,  blue
+1450, 'assemble identical objects', 1439, 1,  purple
+1451, 'form a swarm or group', 1450, 1,  purple
+1452, 'generate an array', 1450, 1,  purple
+1453, 'polymerise monomers', 1450, 1,  purple
+1454, 'specialise material or system function', 1450, 1,  purple
+1455, 'make operations contiguous', 1439, 1,  purple
+1456, 'group similar objects together', 1439, 1,  purple
+1457, 'sick bees', 1456, 1,  blue
+1458, 'make operations parallel', 1439, 1,  purple
+1459, 'merge components', 1439, 1,  purple
+1460, 'bloodworm mandible', 1459, 1,  blue
+1461, 'functionally separated bifunctional component', 1459, 1,  purple
+1462, 'segment before merging', 1459, 1,  purple
+1463, 'bind selectively', 1459, 1,  purple
+1464, 'fitness and stability', 1463, 1,  blue
+1465, 'epitaxial bonding', 1459, 1,  purple
+1466, 'move everything up towards the front end', 1459, 1,  purple
+1467, 'import', 0, 1, black
+1468, 'inhale', 1467, 1, green
+1469, 'place or contain one object inside another (IP07)', 1468, 1, red
+1470, 'use interlocked inner and outer process loops', 1469, 1,  purple
+1471, 'consider fluid  passing through an object', 1469, 1,  purple
+1472, 'a tube through which fluid is flowing', 1471, 1,  purple
+1473, 'make one object passing through another', 1469, 1,  purple
+1474, 'use collapsible concentric tubes', 1473, 1,  purple
+1475, 'place one thing inside another', 1469, 1,  purple
+1476, 'intake', 1467, 1, green
+1477, 'extract and separate (IP02)', 1476, 1, red
+1478, 'feed selectively', 1477, 1,  purple
+1479, 'filter-feeding shark', 1478, 1,  blue
+1480, 'use a filter', 1478, 1,  purple
+1481, 'isolate useful function', 1477, 1,  purple
+1482, 'isolate with a membrane', 1481, 1,  purple
+1483, 'insulate', 1481, 1,  purple
+1484, 'extract solids', 1477, 1,  purple
+1485, 'digest solids', 1484, 1,  purple
+1486, 'separation in space', 1477, 1,  purple
+1487, 'extract fluids', 1477, 1,  purple
+1488, 'adsorb selectively', 1487, 1,  purple
+1489, 'digest fluids', 1487, 1,  purple
+1490, 'absorb selectively', 1487, 1,  purple
+1491, 'diffuse selectively', 1487, 1,  purple
+1492, 'separation in time', 1477, 1,  purple
+1493, 'remove interference', 1477, 1,  purple
+1494, 'selective dissolution', 1493, 1,  purple
+1495, 'filter noisy signal', 1493, 1,  purple
+1496, 'extract information', 1477, 1,  purple
+1497, 'place or contain one object inside another (IP07)', 1476, 1, red
+1498, 'use interlocked inner and outer process loops', 1497, 1,  purple
+1499, 'consider fluid  passing through an object', 1497, 1,  purple
+1500, 'a tube through which fluid is flowing', 1499, 1,  purple
+1501, 'make one object passing through another', 1497, 1,  purple
+1502, 'use collapsible concentric tubes', 1501, 1,  purple
+1503, 'place one thing inside another', 1497, 1,  purple
+1504, 'attract', 1467, 1, green
+1505, 'consume', 1467, 1, green
+1506, 'place or contain one object inside another (IP07)', 1505, 1, red
+1507, 'use interlocked inner and outer process loops', 1506, 1,  purple
+1508, 'consider fluid  passing through an object', 1506, 1,  purple
+1509, 'a tube through which fluid is flowing', 1508, 1,  purple
+1510, 'make one object passing through another', 1506, 1,  purple
+1511, 'use collapsible concentric tubes', 1510, 1,  purple
+1512, 'place one thing inside another', 1506, 1,  purple
+1513, 'absorb', 1467, 1, green
+1514, 'extract and separate (IP02)', 1513, 1, red
+1515, 'feed selectively', 1514, 1,  purple
+1516, 'filter-feeding shark', 1515, 1,  blue
+1517, 'use a filter', 1515, 1,  purple
+1518, 'isolate useful function', 1514, 1,  purple
+1519, 'isolate with a membrane', 1518, 1,  purple
+1520, 'insulate', 1518, 1,  purple
+1521, 'extract solids', 1514, 1,  purple
+1522, 'digest solids', 1521, 1,  purple
+1523, 'separation in space', 1514, 1,  purple
+1524, 'extract fluids', 1514, 1,  purple
+1525, 'adsorb selectively', 1524, 1,  purple
+1526, 'digest fluids', 1524, 1,  purple
+1527, 'absorb selectively', 1524, 1,  purple
+1528, 'diffuse selectively', 1524, 1,  purple
+1529, 'separation in time', 1514, 1,  purple
+1530, 'remove interference', 1514, 1,  purple
+1531, 'selective dissolution', 1530, 1,  purple
+1532, 'filter noisy signal', 1530, 1,  purple
+1533, 'extract information', 1514, 1,  purple
